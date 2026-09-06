@@ -556,6 +556,8 @@ OUTPUT: {
 | TUO del Código Tributario | Sanciones e infracciones | sunat.gob.pe/legislacion |
 | D.S. 150-2007-EF | Ley de Bancarización | mef.gob.pe |
 
+> **Caso especial — DMC / operadores de turismo receptivo (p.ej. Tucano Peru):** si la empresa vende paquetes turísticos a no domiciliados, no aplica el IGV 18% estándar de este documento — aplica el régimen de **exportación de servicios turísticos** (tasa 0% + recuperación del IGV de compras vía Saldo a Favor del Exportador). Ver `normativa_dmc_exportacion_servicios_turisticos.md` en esta misma carpeta.
+
 ---
 
 *Documento de uso interno — Agente Financiero / Consultoría Untiveros*  

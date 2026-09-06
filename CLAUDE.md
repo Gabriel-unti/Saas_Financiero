@@ -109,7 +109,7 @@ Pendiente heredado de Tucano (repo `Tucano`, seccion 11 de su CLAUDE.md -- confi
 - [X] Pegar TC venta SBS agosto 1-20 en `TC_Diario` -- bloquea cierre contable de agosto
 - [ ] Confirmar con Estudio Tambini el patron de asiento de RHE y notas de credito
 - [ ] 10 facturas de agosto sin PDF localizable o sin desglose IGV -- confirmar con Gabriel
-- [ ] Unificar plan de cuentas (`40111`/`4212` vs `4011`/`421`, discrepancia entre libro y archivo de referencia)
+- [X] Unificar plan de cuentas (2026-09-06): `40111`/`4212` ya estaban correctos; la discrepancia real era `1041`→`10413` (BBVA), `1049`→`10421` (Banco de la Nación) y `4017`→`40172` (Renta 4ta), corregido en `Libro_Diario_Braidy_Wonders.xlsx` contra `Plan_de_Cuentas_MYPE.xlsx`. De paso se corrigió que el Libro Diario cobraba IGV 18% en TODAS las ventas — ahora es condicional (columna nueva en `Registro_Ventas`: exportación a no domiciliado = 0%, venta local = 18%). Pendiente: extender `Plan_de_Cuentas_MYPE.xlsx` (hoy genérico MYPE comercial) con divisionarias propias de Tucano para alojamiento/guiado/transporte turístico — los códigos `637`/`639` en `Registro_Compras` col. M son provisionales.
 - [ ] Confirmar gap ~USD 14,893 en conciliacion Spal vs Contabilidad (hipotesis: saldo no vencido, sin confirmar)
 
 **Generalizacion producto:** una vez estable el pipeline de Tucano, extraer lo especifico del cliente (nombres de cuenta, plan contable Braidy Wonders) de lo generalizable (motor de clasificacion, deteccion de duplicados, deteccion de detracciones SUNAT, generacion de EEFF) para que el segundo cliente no implique reescribir desde cero.
