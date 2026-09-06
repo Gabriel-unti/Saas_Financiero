@@ -120,4 +120,4 @@ Pendiente heredado de Tucano (repo `Tucano`, seccion 11 de su CLAUDE.md -- confi
 Commits atomicos, mensaje en infinitivo, push directo a main (solo, sin PR salvo trabajo grande/arriesgado). Revisar diff antes de push. Nunca incluir claves/tokens. Nunca force-push a main.
 Archivo completo: `03_Docs_Tecnicas/github-workflow.md`
 
-Este repo local (`SaaS_Contable_Tucano`) todavia no tiene `git init` ni remoto propio -- decidir si se versiona por separado o si el codigo relevante termina viviendo dentro del repo `Tucano` ya existente.
+Repo local inicializado y publicado como privado en `github.com/Gabriel-unti/Saas_Financiero` (2026-09-06), como repo hermano de `Tucano` (independiente, no submodulo). `.env` con claves reales (ej. `ANTHROPIC_API_KEY` en `01_Agente_IA/Skill_financiero/.env`) queda excluido via `.gitignore` -- no se subio a GitHub. Las carpetas con datos reales de cliente (`Cliente_CarlosTorres/`, `Fuente_Original_Proyecto_contable/`) si se subieron, confiando en que el repo es privado.
