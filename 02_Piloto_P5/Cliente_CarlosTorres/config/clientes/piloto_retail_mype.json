@@ -1,0 +1,20 @@
+{
+  "cliente_id": "piloto_retail_mype",
+  "nombre": "PENDIENTE - definir al confirmar el piloto",
+  "ruc": null,
+  "razon_social": null,
+  "rubro": "retail_mercaderias",
+  "plan_cuentas": "plan_mype_retail.json",
+  "memoria_db": "clasificaciones_piloto_retail_mype.db",
+  "template_diario": "D:/Proyecto_Gabriel/01_Portfolio/Proyecto_5_Demo/config/Diario_demo_plantilla.xlsx",
+  "codigos_estructurales": {
+    "igv": "40111000",
+    "cuentas_por_cobrar": null,
+    "cuentas_por_pagar": null,
+    "ingresos": "70110000",
+    "clase_9": "94000000",
+    "clase_79": "79100000",
+    "cuenta_gasto_default": null
+  },
+  "notas": "PENDIENTE DE VALIDAR con el cliente real antes de produccion: (1) cuentas_por_cobrar/cuentas_por_pagar en null porque el plan MYPE exige un codigo auxiliar POR cliente/proveedor (ej. 12120001, 42120001), no un codigo unico compartido como en el plan de servicios -- falta decidir si se replica esa logica o se simplifica a un pool unico. (2) ingresos apunta a la Divisionaria generica 70110000 asumiendo una sola linea de producto; el plan real tiene codigos por linea (70110001 Linea A, 70110002 Linea B, etc.) -- revisar cuando se conozcan las lineas reales del piloto. (3) cuenta_gasto_default en null a proposito: este rubro no tiene un 'cajon de sastre' equivalente al 6399094 de servicios: mejor forzar revision manual que adivinar una cuenta de gasto incorrecta."
+}

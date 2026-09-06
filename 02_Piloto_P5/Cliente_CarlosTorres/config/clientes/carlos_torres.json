@@ -1,0 +1,20 @@
+{
+  "cliente_id": "carlos_torres",
+  "nombre": "CT PRIME CONSULTING SAC (libros de Contacto Creativo TI S.A.C.)",
+  "ruc": "20608899473",
+  "razon_social": "CONTACTO CREATIVO TI S.A.C.",
+  "rubro": "servicios",
+  "plan_cuentas": "plan_carlos_servicios.json",
+  "memoria_db": "clasificaciones_carlos_torres.db",
+  "template_diario": "D:/Proyecto_Gabriel/01_Portfolio/Proyecto_contable/Data/libro_diario_piloto.xlsx",
+  "codigos_estructurales": {
+    "igv": "40111",
+    "cuentas_por_cobrar": "12121",
+    "cuentas_por_pagar": "42121",
+    "ingresos": "7041",
+    "clase_9": "9411",
+    "clase_79": "79",
+    "cuenta_gasto_default": "6399094"
+  },
+  "notas": "Convenio simplificado: un solo codigo de CxC/CxP para todos los clientes/proveedores (el detalle va en la columna CLIENTE/PROVEEDOR del Excel, no en el codigo contable). Valido para el volumen actual del piloto."
+}

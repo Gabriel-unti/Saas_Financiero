@@ -1,0 +1,20 @@
+{
+  "cliente_id": "demo_pitch",
+  "nombre": "EMPRESA DEMO",
+  "ruc": null,
+  "razon_social": "EMPRESA DEMO",
+  "rubro": "retail_mercaderias",
+  "plan_cuentas": "plan_mype_retail.json",
+  "memoria_db": "clasificaciones_demo_pitch.db",
+  "template_diario": "D:/Proyecto_Gabriel/01_Portfolio/Proyecto_5_Demo/config/Diario_demo_plantilla.xlsx",
+  "codigos_estructurales": {
+    "igv": "40111000",
+    "cuentas_por_cobrar": null,
+    "cuentas_por_pagar": null,
+    "ingresos": "70110000",
+    "clase_9": "94000000",
+    "clase_79": "79100000",
+    "cuenta_gasto_default": null
+  },
+  "notas": "Config de la demo para socios, aislada del piloto real. Mismos huecos pendientes que piloto_retail_mype.json (ver Proyecto_5/config/clientes/piloto_retail_mype.json): CxC/CxP y cuenta de gasto por defecto sin definir a proposito."
+}

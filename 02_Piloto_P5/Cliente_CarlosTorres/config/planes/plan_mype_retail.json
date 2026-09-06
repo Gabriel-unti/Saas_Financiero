@@ -1,0 +1,1844 @@
+{
+  "plan_base": "PCGE MYPE (8 digitos) - Plan_de_Cuentas_MYPE.xlsx",
+  "empresa": null,
+  "cuentas": {
+    "10000000": "EFECTIVO Y EQUIVALENTES DE EFECTIVO",
+    "10100000": "Caja",
+    "10110000": "Caja moneda nacional",
+    "10120000": "Caja moneda extranjera",
+    "10200000": "Fondos fijos",
+    "10210000": "Caja chica",
+    "10400000": "Cuentas corrientes en instituciones financieras",
+    "10410000": "Cuentas corrientes operativas",
+    "10411000": "BCP - Cta. cte. soles",
+    "10412000": "BCP - Cta. cte. dólares",
+    "10413000": "BBVA - Cta. cte. soles",
+    "10414000": "Interbank - Cta. cte. soles",
+    "10420000": "Cuentas corrientes para fines específicos",
+    "10421000": "Banco de la Nación - Detracciones",
+    "10600000": "Depósitos en instituciones financieras",
+    "10610000": "Depósitos de ahorro",
+    "10620000": "Depósitos a plazo",
+    "10700000": "Fondos sujetos a restricción",
+    "12000000": "CUENTAS POR COBRAR COMERCIALES - TERCEROS",
+    "12100000": "Facturas, boletas y otros comprobantes por cobrar",
+    "12120000": "Emitidas en cartera",
+    "12120001": "Cliente - Comercial ABC S.A.C.",
+    "12120002": "Cliente - Distribuidora XYZ E.I.R.L.",
+    "12130000": "En cobranza",
+    "12140000": "En descuento",
+    "12200000": "Anticipos de clientes",
+    "12300000": "Letras por cobrar",
+    "12310000": "En cartera",
+    "12320000": "En cobranza",
+    "14000000": "CTAS. POR COBRAR AL PERSONAL, ACCIONISTAS, DIRECTORES Y GERENTES",
+    "14100000": "Personal",
+    "14110000": "Préstamos",
+    "14130000": "Entregas a rendir cuenta",
+    "14200000": "Accionistas (o socios)",
+    "14220000": "Préstamos",
+    "16000000": "CUENTAS POR COBRAR DIVERSAS - TERCEROS",
+    "16200000": "Reclamaciones a terceros",
+    "16210000": "Compañías aseguradoras",
+    "16240000": "Tributos",
+    "16500000": "Venta de activo inmovilizado",
+    "16530000": "Inmuebles, maquinaria y equipo",
+    "16800000": "Otras cuentas por cobrar diversas",
+    "16820000": "Otras cuentas por cobrar diversas",
+    "18000000": "SERVICIOS Y OTROS CONTRATADOS POR ANTICIPADO",
+    "18200000": "Seguros",
+    "18300000": "Alquileres",
+    "18900000": "Otros gastos contratados por anticipado",
+    "19000000": "ESTIMACIÓN DE CUENTAS DE COBRANZA DUDOSA",
+    "19100000": "Cuentas por cobrar comerciales - Terceros",
+    "19110000": "Facturas, boletas y otros comprobantes por cobrar",
+    "20000000": "MERCADERÍAS",
+    "20100000": "Mercaderías manufacturadas",
+    "20110000": "Mercaderías manufacturadas - Costo",
+    "20110001": "Mercaderías - Línea A (Abarrotes)",
+    "20110002": "Mercaderías - Línea B (Limpieza)",
+    "20800000": "Otras mercaderías",
+    "21000000": "PRODUCTOS TERMINADOS",
+    "21100000": "Productos manufacturados",
+    "21500000": "Existencias de servicios terminados",
+    "23000000": "PRODUCTOS EN PROCESO",
+    "23100000": "Productos en proceso de manufactura",
+    "24000000": "MATERIAS PRIMAS",
+    "24100000": "Materias primas para productos manufacturados",
+    "25000000": "MATERIALES AUXILIARES, SUMINISTROS Y REPUESTOS",
+    "25100000": "Materiales auxiliares",
+    "25200000": "Suministros",
+    "25300000": "Repuestos",
+    "26000000": "ENVASES Y EMBALAJES",
+    "26100000": "Envases",
+    "26200000": "Embalajes",
+    "28000000": "EXISTENCIAS POR RECIBIR",
+    "28100000": "Mercaderías",
+    "28400000": "Materias primas",
+    "29000000": "DESVALORIZACIÓN DE EXISTENCIAS",
+    "29100000": "Mercaderías",
+    "32000000": "ACTIVOS ADQUIRIDOS EN ARRENDAMIENTO FINANCIERO",
+    "32200000": "Inmuebles, maquinaria y equipo",
+    "32230000": "Maquinarias y equipos de explotación",
+    "32240000": "Equipo de transporte",
+    "33000000": "INMUEBLES, MAQUINARIA Y EQUIPO",
+    "33100000": "Terrenos",
+    "33110000": "Terrenos",
+    "33200000": "Edificaciones",
+    "33210000": "Edificaciones administrativas",
+    "33230000": "Edificaciones para producción",
+    "33300000": "Maquinarias y equipos de explotación",
+    "33310000": "Maquinarias y equipos de explotación",
+    "33400000": "Unidades de transporte",
+    "33410000": "Vehículos motorizados",
+    "33500000": "Muebles y enseres",
+    "33510000": "Muebles",
+    "33520000": "Enseres",
+    "33600000": "Equipos diversos",
+    "33610000": "Equipo para procesamiento de información (cómputo)",
+    "33620000": "Equipo de comunicación",
+    "33630000": "Equipo de seguridad",
+    "33700000": "Herramientas y unidades de reemplazo",
+    "34000000": "INTANGIBLES",
+    "34300000": "Programas de computadora (software)",
+    "34310000": "Aplicaciones informáticas",
+    "34200000": "Patentes y propiedad industrial",
+    "34220000": "Marcas",
+    "37000000": "ACTIVO DIFERIDO",
+    "37100000": "Impuesto a la renta diferido",
+    "37300000": "Intereses diferidos",
+    "39000000": "DEPRECIACIÓN, AMORTIZACIÓN Y AGOTAMIENTO ACUMULADOS",
+    "39100000": "Depreciación acumulada",
+    "39130000": "IME - Costo: Edificaciones",
+    "39140000": "IME - Costo: Maquinarias y equipos",
+    "39150000": "IME - Costo: Unidades de transporte",
+    "39160000": "IME - Costo: Muebles, enseres y equipos diversos",
+    "39200000": "Amortización acumulada",
+    "39210000": "Intangibles - Costo",
+    "40000000": "TRIBUTOS, CONTRAPRESTACIONES Y APORTES POR PAGAR",
+    "40100000": "Gobierno central",
+    "40110000": "Impuesto general a las ventas",
+    "40111000": "IGV - Cuenta propia",
+    "40114000": "IGV - Régimen de retenciones",
+    "40170000": "Impuesto a la renta",
+    "40171000": "Renta de tercera categoría",
+    "40172000": "Renta de cuarta categoría",
+    "40173000": "Renta de quinta categoría",
+    "40180000": "Otros impuestos y contraprestaciones",
+    "40181000": "Impuesto a las transacciones financieras (ITF)",
+    "40186000": "Impuesto temporal a los activos netos (ITAN)",
+    "40300000": "Instituciones públicas",
+    "40310000": "ESSALUD",
+    "40320000": "ONP",
+    "40700000": "Administradoras de fondos de pensiones (AFP)",
+    "41000000": "REMUNERACIONES Y PARTICIPACIONES POR PAGAR",
+    "41100000": "Remuneraciones por pagar",
+    "41110000": "Sueldos y salarios por pagar",
+    "41500000": "Beneficios sociales de los trabajadores por pagar",
+    "41510000": "Compensación por tiempo de servicios (CTS)",
+    "42000000": "CUENTAS POR PAGAR COMERCIALES - TERCEROS",
+    "42100000": "Facturas, boletas y otros comprobantes por pagar",
+    "42120000": "Emitidas",
+    "42120001": "Proveedor - Importadora DEF S.A.",
+    "42120002": "Proveedor - Suministros GHI S.A.C.",
+    "42300000": "Letras por pagar",
+    "42400000": "Honorarios por pagar",
+    "44000000": "CTAS. POR PAGAR A ACCIONISTAS (SOCIOS), DIRECTORES Y GERENTES",
+    "44100000": "Accionistas (o socios)",
+    "45000000": "OBLIGACIONES FINANCIERAS",
+    "45100000": "Préstamos de instituciones financieras y otras entidades",
+    "45110000": "Instituciones financieras",
+    "45200000": "Contratos de arrendamiento financiero",
+    "45500000": "Costos de financiación por pagar",
+    "45510000": "Préstamos de instituciones financieras y otras entidades",
+    "46000000": "CUENTAS POR PAGAR DIVERSAS - TERCEROS",
+    "46500000": "Pasivos por compra de activo inmovilizado",
+    "46540000": "Inmuebles, maquinaria y equipo",
+    "46900000": "Otras cuentas por pagar diversas",
+    "48000000": "PROVISIONES",
+    "48100000": "Provisión para litigios",
+    "48600000": "Provisión para garantías",
+    "49000000": "PASIVO DIFERIDO",
+    "49100000": "Impuesto a la renta diferido",
+    "49600000": "Ingresos diferidos",
+    "50000000": "CAPITAL",
+    "50100000": "Capital social",
+    "50110000": "Acciones",
+    "50120000": "Participaciones",
+    "52000000": "CAPITAL ADICIONAL",
+    "52100000": "Primas (descuento) de acciones",
+    "58000000": "RESERVAS",
+    "58200000": "Legal",
+    "59000000": "RESULTADOS ACUMULADOS",
+    "59100000": "Utilidades no distribuidas",
+    "59110000": "Utilidades acumuladas",
+    "59200000": "Pérdidas acumuladas",
+    "59210000": "Pérdidas acumuladas",
+    "60000000": "COMPRAS",
+    "60100000": "Mercaderías",
+    "60110000": "Mercaderías manufacturadas",
+    "60110001": "Compra mercaderías - Línea A (Abarrotes)",
+    "60110002": "Compra mercaderías - Línea B (Limpieza)",
+    "60200000": "Materias primas",
+    "60210000": "Materias primas para productos manufacturados",
+    "60300000": "Materiales auxiliares, suministros y repuestos",
+    "60310000": "Materiales auxiliares",
+    "60320000": "Suministros",
+    "60330000": "Repuestos",
+    "60400000": "Envases y embalajes",
+    "60900000": "Costos vinculados con las compras",
+    "60910000": "Costos vinculados con las compras de mercaderías",
+    "60911000": "Transporte",
+    "60912000": "Seguros",
+    "60913000": "Derechos aduaneros",
+    "61000000": "VARIACIÓN DE EXISTENCIAS",
+    "61100000": "Mercaderías",
+    "61110000": "Mercaderías manufacturadas",
+    "61200000": "Materias primas",
+    "61300000": "Materiales auxiliares, suministros y repuestos",
+    "62000000": "GASTOS DE PERSONAL, DIRECTORES Y GERENTES",
+    "62100000": "Remuneraciones",
+    "62110000": "Sueldos y salarios",
+    "62140000": "Gratificaciones",
+    "62150000": "Vacaciones",
+    "62700000": "Seguridad, previsión social y otras contribuciones",
+    "62710000": "Régimen de prestaciones de salud (ESSALUD)",
+    "62730000": "Seguro complementario de trabajo de riesgo (SCTR)",
+    "62900000": "Beneficios sociales de los trabajadores",
+    "62910000": "Compensación por tiempo de servicios (CTS)",
+    "63000000": "GASTOS DE SERVICIOS PRESTADOS POR TERCEROS",
+    "63100000": "Transporte, correos y gastos de viaje",
+    "63110000": "Transporte",
+    "63140000": "Alimentación",
+    "63200000": "Asesoría y consultoría",
+    "63210000": "Administrativa",
+    "63220000": "Legal y tributaria",
+    "63230000": "Auditoría y contable",
+    "63400000": "Mantenimiento y reparaciones",
+    "63430000": "Inmuebles, maquinaria y equipo",
+    "63500000": "Alquileres",
+    "63520000": "Edificaciones",
+    "63540000": "Equipo de transporte",
+    "63600000": "Servicios básicos",
+    "63610000": "Energía eléctrica",
+    "63630000": "Agua",
+    "63640000": "Teléfono",
+    "63650000": "Internet",
+    "63670000": "Cable",
+    "63700000": "Publicidad, publicaciones, relaciones públicas",
+    "63710000": "Publicidad",
+    "63900000": "Otros servicios prestados por terceros",
+    "63910000": "Gastos bancarios",
+    "64000000": "GASTOS POR TRIBUTOS",
+    "64100000": "Gobierno central",
+    "64120000": "Impuesto a las transacciones financieras (ITF)",
+    "64130000": "Impuesto temporal a los activos netos (ITAN)",
+    "64300000": "Gobierno local",
+    "64310000": "Impuesto predial",
+    "64320000": "Arbitrios municipales y seguridad ciudadana",
+    "64340000": "Licencia de funcionamiento",
+    "65000000": "OTROS GASTOS DE GESTIÓN",
+    "65100000": "Seguros",
+    "65600000": "Suministros",
+    "65900000": "Otros gastos de gestión",
+    "65910000": "Donaciones",
+    "65920000": "Sanciones administrativas",
+    "67000000": "GASTOS FINANCIEROS",
+    "67300000": "Intereses por préstamos y otras obligaciones",
+    "67310000": "Préstamos de instituciones financieras y otras entidades",
+    "67320000": "Contratos de arrendamiento financiero",
+    "67600000": "Diferencia de cambio",
+    "68000000": "VALUACIÓN Y DETERIORO DE ACTIVOS Y PROVISIONES",
+    "68100000": "Depreciación",
+    "68140000": "Depreciación de IME - Costo",
+    "68200000": "Amortización de intangibles",
+    "68210000": "Amortización de intangibles - Costo",
+    "68400000": "Valuación de activos",
+    "68410000": "Estimación de cuentas de cobranza dudosa",
+    "69000000": "COSTO DE VENTAS",
+    "69100000": "Mercaderías",
+    "69110000": "Mercaderías manufacturadas",
+    "69110001": "Costo de ventas - Línea A (Abarrotes)",
+    "69110002": "Costo de ventas - Línea B (Limpieza)",
+    "69200000": "Productos terminados",
+    "69210000": "Productos manufacturados",
+    "69400000": "Servicios",
+    "69410000": "Terceros",
+    "70000000": "VENTAS",
+    "70100000": "Mercaderías",
+    "70110000": "Mercaderías manufacturadas",
+    "70110001": "Venta mercaderías - Línea A (Abarrotes)",
+    "70110002": "Venta mercaderías - Línea B (Limpieza)",
+    "70200000": "Productos terminados",
+    "70210000": "Productos manufacturados",
+    "70400000": "Prestación de servicios",
+    "70410000": "Terceros",
+    "70410001": "Servicio - Mantenimiento",
+    "70410002": "Servicio - Instalación",
+    "70900000": "Devoluciones sobre ventas",
+    "70910000": "Mercaderías - Terceros",
+    "73000000": "DESCUENTOS, REBAJAS Y BONIFICACIONES OBTENIDOS",
+    "73100000": "Descuentos, rebajas y bonificaciones obtenidos",
+    "74000000": "DESCUENTOS, REBAJAS Y BONIFICACIONES CONCEDIDOS",
+    "74100000": "Descuentos, rebajas y bonificaciones concedidos",
+    "75000000": "OTROS INGRESOS DE GESTIÓN",
+    "75200000": "Comisiones y corretajes",
+    "75400000": "Alquileres",
+    "75420000": "Edificaciones",
+    "75900000": "Otros ingresos de gestión",
+    "77000000": "INGRESOS FINANCIEROS",
+    "77200000": "Rendimientos ganados",
+    "77220000": "Depósitos en instituciones financieras",
+    "77600000": "Diferencia de cambio",
+    "79000000": "CARGAS IMPUTABLES A CUENTAS DE COSTOS Y GASTOS",
+    "79100000": "Cargas imputables a cuentas de costos y gastos",
+    "80000000": "MARGEN COMERCIAL",
+    "81000000": "PRODUCCIÓN DEL EJERCICIO",
+    "82000000": "VALOR AGREGADO",
+    "83000000": "EXCEDENTE BRUTO (INSUFICIENCIA BRUTA) DE EXPLOTACIÓN",
+    "84000000": "RESULTADO DE EXPLOTACIÓN",
+    "85000000": "RESULTADO ANTES DE PARTICIPACIONES E IMPUESTOS",
+    "88000000": "IMPUESTO A LA RENTA",
+    "88100000": "Impuesto a la renta - Corriente",
+    "89000000": "DETERMINACIÓN DEL RESULTADO DEL EJERCICIO",
+    "89100000": "Utilidad",
+    "89200000": "Pérdida",
+    "90000000": "COSTO DE VENTAS (por función)",
+    "92000000": "COSTO DE PRODUCCIÓN",
+    "94000000": "GASTOS DE ADMINISTRACIÓN",
+    "95000000": "GASTOS DE VENTAS",
+    "97000000": "GASTOS FINANCIEROS (por función)"
+  },
+  "cuentas_meta": {
+    "10000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "10100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "10110000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "10120000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "10200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "10210000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "10400000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "10410000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "10411000": {
+      "nivel": "Subdivisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "10412000": {
+      "nivel": "Subdivisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "10413000": {
+      "nivel": "Subdivisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "10414000": {
+      "nivel": "Subdivisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "10420000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "10421000": {
+      "nivel": "Subdivisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "10600000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "10610000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "10620000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "10700000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "12000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "12100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "12120000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "12120001": {
+      "nivel": "Auxiliar",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "12120002": {
+      "nivel": "Auxiliar",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "12130000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "12140000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "12200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "12300000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "12310000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "12320000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "14000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "14100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "14110000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "14130000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "14200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "14220000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "16000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "16200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "16210000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "16240000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "16500000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "16530000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "16800000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "16820000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "18000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "18200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "18300000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "18900000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "19000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "19100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "19110000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "20000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "20100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "20110000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "20110001": {
+      "nivel": "Auxiliar",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "20110002": {
+      "nivel": "Auxiliar",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "20800000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "21000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "21100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "21500000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "23000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "23100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "24000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "24100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "25000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "25100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "25200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "25300000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "26000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "26100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "26200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "28000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "28100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "28400000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "29000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "29100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "32000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "32200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "32230000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "32240000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "33000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "33100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "33110000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "33200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "33210000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "33230000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "33300000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "33310000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "33400000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "33410000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "33500000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "33510000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "33520000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "33600000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "33610000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "33620000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "33630000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "33700000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "34000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "34300000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "34310000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "34200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "34220000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "37000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "37100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "37300000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "39000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "39100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "39130000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "39140000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "39150000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "39160000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "39200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "39210000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "40000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "40100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "40110000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "40111000": {
+      "nivel": "Subdivisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "40114000": {
+      "nivel": "Subdivisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "40170000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "40171000": {
+      "nivel": "Subdivisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "40172000": {
+      "nivel": "Subdivisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "40173000": {
+      "nivel": "Subdivisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "40180000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "40181000": {
+      "nivel": "Subdivisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "40186000": {
+      "nivel": "Subdivisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "40300000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "40310000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "40320000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "40700000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "41000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "41100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "41110000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "41500000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "41510000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "42000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "42100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "42120000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "42120001": {
+      "nivel": "Auxiliar",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "42120002": {
+      "nivel": "Auxiliar",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "42300000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "42400000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "44000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "44100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "45000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "45100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "45110000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "45200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "45500000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "45510000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "46000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "46500000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "46540000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "46900000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "48000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "48100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "48600000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "49000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "49100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "49600000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "50000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "50100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "50110000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "50120000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "52000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "52100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "58000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "58200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "59000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "59100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "59110000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "59200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "59210000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "60000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "60100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "60110000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "60110001": {
+      "nivel": "Auxiliar",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "60110002": {
+      "nivel": "Auxiliar",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "60200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "60210000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "60300000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "60310000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "60320000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "60330000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "60400000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "60900000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "60910000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "60911000": {
+      "nivel": "Subdivisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "60912000": {
+      "nivel": "Subdivisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "60913000": {
+      "nivel": "Subdivisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "61000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "61100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "61110000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "61200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "61300000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "62000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "62100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "62110000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "62140000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "62150000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "62700000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "62710000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "62730000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "62900000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "62910000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "63000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "63100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "63110000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "63140000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "63200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "63210000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "63220000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "63230000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "63400000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "63430000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "63500000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "63520000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "63540000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "63600000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "63610000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "63630000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "63640000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "63650000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "63670000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "63700000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "63710000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "63900000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "63910000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "64000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "64100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "64120000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "64130000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "64300000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "64310000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "64320000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "64340000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "65000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "65100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "65600000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "65900000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "65910000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "65920000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "67000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "67300000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "67310000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "67320000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "67600000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "68000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "68100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "68140000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "68200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "68210000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "68400000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "68410000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "69000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "69100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "69110000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "69110001": {
+      "nivel": "Auxiliar",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "69110002": {
+      "nivel": "Auxiliar",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "69200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "69210000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "69400000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "69410000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "70000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "70100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "70110000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "70110001": {
+      "nivel": "Auxiliar",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "70110002": {
+      "nivel": "Auxiliar",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "70200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "70210000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "70400000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "70410000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "70410001": {
+      "nivel": "Auxiliar",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "70410002": {
+      "nivel": "Auxiliar",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "70900000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "70910000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "73000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "73100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "74000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "74100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "75000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "75200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "75400000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "75420000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "75900000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "77000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "77200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "77220000": {
+      "nivel": "Divisionaria",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "77600000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "79000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Título"
+    },
+    "79100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Acreedora",
+      "tipo": "Movimiento"
+    },
+    "80000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Mixta",
+      "tipo": "Movimiento"
+    },
+    "81000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Mixta",
+      "tipo": "Movimiento"
+    },
+    "82000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Mixta",
+      "tipo": "Movimiento"
+    },
+    "83000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Mixta",
+      "tipo": "Movimiento"
+    },
+    "84000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Mixta",
+      "tipo": "Movimiento"
+    },
+    "85000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Mixta",
+      "tipo": "Movimiento"
+    },
+    "88000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Título"
+    },
+    "88100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "89000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Mixta",
+      "tipo": "Título"
+    },
+    "89100000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Mixta",
+      "tipo": "Movimiento"
+    },
+    "89200000": {
+      "nivel": "Subcuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "90000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "92000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "94000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "95000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    },
+    "97000000": {
+      "nivel": "Cuenta",
+      "naturaleza": "Deudora",
+      "tipo": "Movimiento"
+    }
+  }
+}

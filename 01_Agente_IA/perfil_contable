@@ -1,0 +1,549 @@
+**Bloque 1 — Tipos de comprobantes y cuándo usarlos**
+
+**¿Cuáles son todos los tipos de comprobantes de pago válidos en Perú según SUNAT?**
+
+**Para cada uno indica: (1) cuándo se emite, (2) quién puede emitirlo según régimen tributario,**
+
+**(3) si otorga crédito fiscal IGV, (4) si es deducible como gasto de renta.**
+
+**Formato tabla con esas 4 columnas.**
+
+A continuación se presenta el detalle de los comprobantes de pago válidos en Perú, basado en la normativa de la SUNAT y la información contenida en las fuentes:
+
+| **Tipo de Comprobante** | **(1) ¿Cuándo se emite?** | **(2) ¿Quién puede emitirlo?** | **(3) ¿Otorga crédito fiscal IGV?** | **(4) ¿Es deducible como gasto de renta?** |
+| --- | --- | --- | --- | --- |
+| **Factura** (Código 01) | En operaciones entre empresas o personas con RUC para sustentar costo, gasto o crédito fiscal. | Contribuyentes del Régimen Especial (RER), MYPE Tributario (RMT) y Régimen General. | **Sí**, siempre que se discrimine el impuesto en el documento. | **Sí**, siempre que cumpla con el principio de causalidad para producir renta. |
+| **Boleta de Venta** (Código 03) | Principalmente en operaciones con consumidores o usuarios finales. | Todos los regímenes: NRUS, RER, RMT y Régimen General. | **No** otorga derecho a crédito fiscal del IGV. | **No** por regla general (salvo excepciones legales para ciertos regímenes o límites específicos). |
+| **Recibo por Honorarios** (R1) | Por la prestación de servicios a través del ejercicio individual de cualquier profesión, arte, ciencia u oficio. | Personas naturales que perciben rentas de cuarta categoría (trabajadores independientes). | **No**, no está gravado con IGV; está sujeto a retención de impuesto a la renta si corresponde. | **Sí**, sustenta el gasto para la empresa que recibe el servicio. |
+| **Liquidación de Compra** (Código 04) | Cuando se adquieren productos primarios a personas naturales que no poseen RUC (productores, acopiadores). | Compradores en el RER, RMT o Régimen General (según designación de SUNAT). | **Sí**, siempre que el comprador retenga y pague el IGV correspondiente (información de práctica tributaria común, sustentada en el código 04 en). | **Sí**, permite sustentar el costo o gasto de la adquisición para efectos tributarios. |
+| **Tickets o Cintas** | Emitidos por máquinas registradoras autorizadas en operaciones con consumidores finales. | Generalmente establecimientos comerciales que realizan ventas masivas al por menor. | **No** (si es a consumidor final). **Sí** (si identifica al adquirente y desglosa el IGV). | **No** (final). **Sí** (si cumple requisitos de identificación de gasto). |
+| **Nota de Crédito** (07) | Para anular, corregir, realizar descuentos o bonificaciones en facturas o boletas emitidas previamente. | El mismo emisor que otorgó el comprobante de pago original que se modifica. | **Reduce** el crédito o débito fiscal según el ajuste realizado. | **Sí**, ajusta el ingreso o el gasto deducible de la operación original. |
+| **Nota de Débito** (08) | Para recuperar costos o gastos adicionales incurridos con posterioridad a la emisión del comprobante original. | El mismo emisor que otorgó el comprobante de pago original que se modifica. | **Aumenta** el crédito o débito fiscal según el ajuste realizado. | **Sí**, sustenta un incremento en el gasto o costo deducible. |
+
+Consideraciones Adicionales sobre la Emisión:
+
+- **Obligatoriedad Electrónica:** Desde el **1 de junio de 2026**, los nuevos inscritos en el RUC que opten por el RMT, RER o Régimen General tienen la calidad de **emisores electrónicos** desde el día de su inscripción.
+
+- **Validez para Deducción:** No basta con poseer el comprobante; para que el gasto sea deducible, la operación debe ser real y estar acreditada con medios probatorios suficientes a criterio de la Administración. Además, se debe cumplir con la **bancarización** en pagos de S/ 2,000 o $500 a más para mantener el derecho a deducción
+
+**Bloque 2 — Criterios de validez para crédito fiscal**
+
+**Dame los criterios exactos que debe cumplir una factura para otorgar crédito fiscal de IGV**
+
+**en Perú. Organízalos como ****checklist**** binario (cumple/no cumple).**
+
+**Incluye los requisitos formales del artículo 18 y 19 de la Ley del IGV,**
+
+**y los casos en que se pierde el crédito ****fiscal**** aunque la factura sea formalmente correcta.**
+
+Como motor de clasificación automática de documentos tributarios, aplico los siguientes algoritmos de validación basados en la normativa vigente, la jurisprudencia del Tribunal Fiscal y los informes de SUNAT contenidos en las fuentes analizadas.
+
+1. Checklist Binario de Validación (Crédito Fiscal)
+
+Para que una factura sea clasificada como "Apta para Crédito Fiscal", debe cumplir simultáneamente con todos los criterios de los niveles sustancial y formal.
+
+| **Nivel** | **ID** | **Criterio de Validación** | **Cumple (1)** | **No Cumple (0)** | **Referencia** |
+| --- | --- | --- | --- | --- | --- |
+| **Sustancial (Art. 18)** | S1 | **Causalidad:** ¿El gasto es necesario para producir renta o mantener su fuente? |  |  |  |
+|  | S2 | **Destino:** ¿La adquisición está destinada a operaciones por las que se deba pagar el Impuesto? |  |  |  |
+| **Formal (Art. 19)** | F1 | **Discriminación:** ¿El IGV está consignado por separado (detallado) en el comprobante? |  |  |  |
+|  | F2 | **Identificación:** ¿Contiene RUC, nombre/razón social del emisor y del adquirente? |  |  |  |
+|  | F3 | **Validez:** ¿El emisor estaba "Activo" y "Habido" a la fecha de emisión? |  |  |  |
+|  | F4 | **Autorización:** ¿El documento cuenta con autorización de impresión o es un CPE válido? |  |  |  |
+|  | F5 | **Anotación:** ¿Está anotado en el Registro de Compras (RCE/SIRE) dentro del plazo legal? |  |  |  |
+
+-------------------------------------------------------------------------------- 
+
+2. Árbol de Decisión: Pérdida del Crédito Fiscal
+
+Incluso si el checklist anterior resulta positivo (1), el documento puede ser rechazado por condiciones externas o detectadas post-clasificación.
+
+graph TD
+
+    A[Factura Formalmente Correcta] --> B{¿Monto >= S/ 2,000 o $500?}
+
+    B -- Sí --> C{¿Se usó Medio de Pago bancario?}
+
+    C -- No --> D[RECHAZO: Incumplimiento de Bancarización]
+
+    C -- Sí --> E{¿Operación es Real?}
+
+    B -- No --> E
+
+    E -- No --> F[RECHAZO: Operación no fehaciente / simulada]
+
+    E -- Sí --> G{¿Proveedor es No Habido?}
+
+    G -- Sí --> H[RECHAZO: Condición de Domicilio del Emisor]
+
+    G -- No --> I{¿Naturaleza del Servicio?}
+
+    I -- Renta 5ta disfrazada --> J[RECHAZO: No es operación gravada con IGV]
+
+    I -- Gasto de 3ra --> K[APROBADO: Crédito Fiscal Válido]
+
+-------------------------------------------------------------------------------- 
+
+3. Criterios de Exclusión Específicos (Casos Críticos)
+
+A continuación, detallo los casos donde el motor de clasificación detecta una pérdida automática del derecho, según las fuentes:
+
+- **Incumplimiento de Bancarización (Ley 28194):** Si el monto es igual o superior a **S/ 2,000 o $500**, el pago debe realizarse exclusivamente a través de empresas del sistema financiero. El incumplimiento anula el derecho al crédito fiscal, incluso si la factura es real y el IGV fue pagado.
+
+- **No Fehaciencia de la Operación:** No es suficiente poseer el comprobante; se debe acreditar que la operación ocurrió realmente mediante medios probatorios suficientes (guías, informes, contratos).
+
+- **Errores en Autorización de Impresión:** Documentos que omiten el número de autorización de SUNAT o consignan uno erróneo invalidan el crédito, **salvo** que el pago total se haya realizado mediante medios bancarizados.
+
+- **Servicios que no califican como de 3ra Categoría:** Si SUNAT determina que el servicio prestado (ej. por artistas o independientes) genera rentas de **quinta categoría** y no de tercera, el crédito fiscal de esas facturas será reparado (eliminado).
+
+- **No Discriminación del Impuesto:** Si el emisor no desglosa el IGV (lo incluye en el precio total sin separarlo), el adquirente pierde el derecho a usarlo como crédito.
+
+- **Registro Extemporáneo:** El crédito se pierde si la anotación en el Registro de Compras se realiza **después** de que SUNAT notifica un requerimiento de exhibición de dichos libros.
+
+**Bloque 3 — Árbol de decisión por régimen**
+
+**Para una empresa peruana que recibe un documento de un proveedor, ¿cómo determina**
+
+**si ese documento es deducible como gasto? Dame un árbol de decisión que empiece por:**
+
+**¿es un comprobante de pago autorizado por SUNAT?**
+
+**Luego ramifica por tipo de gasto, tope de deducibilidad, y requisito de bancarización.**
+
+Como motor de clasificación automática de documentos tributarios, ejecuto el siguiente algoritmo de decisión para determinar la deducibilidad de un gasto en el entorno tributario peruano, basado estrictamente en la normativa vigente y los controles de validación de SUNAT.
+
+Árbol de Decisión de Clasificación de Gastos (Deducibilidad)
+
+graph TD
+
+    A[Inicio: Recepción de Documento] --> B{1. ¿Es comprobante autorizado?}
+
+    
+
+    B -- NO --> C[RECHAZO: Documento no válido/Falso]
+
+    B -- SÍ --> D{2. Emisor: ¿Activo y Habido?}
+
+    
+
+    D -- NO --> E[RECHAZO: Gasto no deducible]
+
+    D -- SÍ --> F{3. ¿Cumple Principio de Causalidad?}
+
+    
+
+    F -- NO --> G[RECHAZO: Gasto ajeno al negocio]
+
+    F -- SÍ --> H{4. ¿Monto >= S/ 2,000 o $500?}
+
+    
+
+    H -- SÍ --> I{5. ¿Se usó Medio de Pago?}
+
+    H -- NO --> J{6. ¿Tipo de Gasto con límite?}
+
+    
+
+    I -- NO --> K[RECHAZO: Incumplimiento Ley 28194]
+
+    I -- SÍ --> J
+
+    
+
+    J -- Gasto General --> L[APROBADO: Deducible 100%]
+
+    J -- Gasto con Tope --> M{7. ¿Excede Límite Legal?}
+
+    
+
+    M -- SÍ --> N[APROBADO PARCIAL: Reparar Exceso]
+
+    M -- NO --> O[APROBADO: Deducible 100%]
+
+-------------------------------------------------------------------------------- 
+
+Criterios de Decisión del Motor de Clasificación
+
+Nivel 1: Validación Formal del Documento
+
+El motor utiliza los códigos de respuesta del servicio web de SUNAT para clasificar la validez del comprobante.
+
+| **Atributo** | **Criterio de Aceptación (Binario)** | **Referencia de Fuente** |
+| --- | --- | --- |
+| **Tipo de Comprobante** | Debe ser Factura (01), Recibo por Honorarios (R1) o Liquidación de Compra (04). | , |
+| **Estado CP (****estadoCp****)** | Debe ser "1" (Aceptado) o "3" (Autorizado). | , |
+| **Estado RUC (****estadoRuc****)** | Debe ser "00" (Activo). | , |
+| **Condición Domicilio** | Debe ser "00" (Habido). | , |
+| **Emisión Electrónica** | Obligatorio desde el día 1 para nuevos inscritos en RMT/RG (desde 01/06/2026). | , |
+
+Nivel 2: Validación Sustancial (Causalidad)
+
+Para ser clasificado como deducible, el motor verifica que el gasto sea **necesario para producir y mantener la fuente** de renta bruta.
+
+- **Algoritmo S1:** ¿El gasto está destinado a operaciones gravadas?.
+
+- **Algoritmo S2:** ¿La operación es fehaciente (real)? No basta el comprobante; se requiere acreditación suficiente a criterio de la administración.
+
+Nivel 3: Validación por Bancarización (Ley 28194)
+
+El incumplimiento en este nivel genera la pérdida automática del derecho a deducir el gasto, incluso si el documento es formalmente correcto.
+
+| **Umbral de Validación** | **Requisito de Medio de Pago** | **Efecto del Incumplimiento** |
+| --- | --- | --- |
+| **Operación ****>****= S/ 2,000 o $500** | Obligatorio uso de ESF (Empresas del Sistema Financiero). | Pérdida de costo/gasto y crédito fiscal. |
+| **Vehículos / Inmuebles ****>****= 1 UIT** | Obligatorio sin importar si son pagos parciales. | No se puede formalizar ante notario ni deducir. |
+| **Remuneraciones** | Obligatorio a través del sistema financiero (sin umbral mínimo). | Se presume no pagado salvo prueba en contrario. |
+
+Nivel 4: Ramificación por Tipo de Gasto y Topes
+
+Si el documento supera los niveles anteriores, el motor aplica los límites de deducibilidad según la cuenta del **PCGE**.
+
+- **Gastos de Personal (Cuenta 62):**
+
+- *Aguinaldos/Bonificaciones:* Deducibles si se pagan dentro del plazo para presentar la DJ anual.
+
+- *Recreativos:* Límite del 0.5% de los Ingresos Netos (con tope máximo en UIT) [fuente externa basada en LIR].
+
+- **Servicios de Terceros (Cuenta 63):**
+
+- *Asesoría/Consultoría:* Deducible 100% si se acredita el servicio (entregables).
+
+- *Gastos de Viaje (Alojamiento/Alimentación):* Sujetos a límites por día según escala de SUNAT.
+
+- **Otros Gastos de Gestión (Cuenta 65):**
+
+- *Donaciones:* Solo a entidades receptoras debidamente inscritas; límite del 10% de la Renta Neta.
+
+- **Gastos por Tributos (Cuenta 64):**
+
+- *Multas e Intereses Moratorios:* **No deducibles** (deben ser reparados en la Cuenta 88).
+
+Matriz de Salida de Clasificación
+
+| **Resultado de Clasificación** | **Acción Contable (PCGE)** | **Acción Tributaria** |
+| --- | --- | --- |
+| **Aprobado** | Registro en Cuenta 6x correspondiente. | Deducción 100% en Renta. |
+| **Reparable (Temporal)** | Registro en Cuenta 6x + Activo Diferido (Cuenta 37). | Adición en el ejercicio actual; deducción futura. |
+| **Rechazado (Permanente)** | Registro en Cuenta 6x (Gasto no deducible). | Adición permanente en la DJ anual. |
+
+**Bloque 4 — Bancarización (crítico para clasificación)**
+
+**¿Cuál es el monto mínimo a partir del cual una operación en Perú requiere**
+
+**medio de pago bancarizado para ser deducible? ¿Qué medios califican?**
+
+**¿Qué pasa si la factura supera el ****tope**** pero se pagó en efectivo?**
+
+**Dame la norma exacta (número de ley o decreto) y el criterio de clasificación resultante.**
+
+Como motor de clasificación automática de documentos tributarios peruanos, presento los parámetros de validación del **Algoritmo de Bancarización** basados estrictamente en el **Decreto Legislativo ****N.°**** 1529** y la **Ley ****N.°**** 28194** (Ley para la Lucha contra la Evasión y para la Formalización de la Economía).
+
+1. Umbrales de Validación (Monto Mínimo)
+
+El motor aplica dos umbrales de decisión según la fecha de la operación y el tipo de activo involucrado:
+
+| **Escenario de Validación** | **Umbral en Soles** | **Umbral en ****Dólares** | **Vigencia / Norma** |
+| --- | --- | --- | --- |
+| **Operaciones Generales** | **S/ 2,000** | **USD 500** | Desde 01/04/2022 (D. Leg. 1529). |
+| **Vehículos / Inmuebles / Capital** | **>****= 1 UIT** | Según tipo de cambio | Aplica incluso para **pagos parciales**. |
+| **Remuneraciones / Beneficios** | **S/ 0.01** | - | Sin umbral mínimo (D. Leg. 1499). |
+
+-------------------------------------------------------------------------------- 
+
+2. Matriz de Medios de Pago Admitidos
+
+Para que el motor clasifique un pago como "Válido", este debe canalizarse exclusivamente a través de **Empresas del Sistema Financiero (ESF)** o empresas bancarias no domiciliadas (bajo condiciones específicas de intercambio de información).
+
+| **Código** | **Medio de Pago Calificado** | **Referencia Legal** |
+| --- | --- | --- |
+| MP01 | **Depósitos en cuenta** | Art. 5 Ley 28194 |
+| MP02 | **Giros o transferencias de fondos** | Art. 5 Ley 28194 |
+| MP03 | **Órdenes de pago** | Art. 5 Ley 28194 |
+| MP04 | **Tarjetas de débito y crédito** expedidas en el país | Art. 5 Ley 28194 |
+| MP05 | **Cheques** con la cláusula "no negociable", "intransferible" u otra equivalente | Art. 5 Ley 28194 |
+
+-------------------------------------------------------------------------------- 
+
+3. Árbol de Decisión: Consecuencias del Incumplimiento
+
+Si el motor detecta una factura que supera el tope pero fue pagada en efectivo (sin Medio de Pago), se ejecuta el siguiente flujo de rechazo automático:
+
+graph TD
+
+    A[Factura >= S/ 2,000 o USD 500] --> B{¿Se usó Medio de Pago?}
+
+    B -- NO --> C[RECHAZO: Incumplimiento Art. 3 y 4 Ley 28194]
+
+    C --> D[Efecto 1: Pérdida del derecho a deducir gasto/costo para Renta]
+
+    C --> E[Efecto 2: Pérdida del derecho al Crédito Fiscal de IGV]
+
+    C --> F[Efecto 3: Imposibilidad de solicitar devoluciones o compensaciones]
+
+    B -- SÍ --> G[APROBADO: Continúa a validación sustancial]
+
+*[Referencia: 1422, 1425]*
+
+4. Criterio de Clasificación Resultante
+
+- **Norma Exacta:** **Decreto Legislativo ****N.°**** 1529**, que modificó los artículos 3 y 4 de la **Ley ****N.°**** 28194**.
+
+- **Dictamen del Motor:** El pago en efectivo de facturas que superan los topes mencionados **anula el valor tributario del documento**. No se admite prueba en contrario respecto a la realidad de la operación si no se cumple con la formalidad del medio de pago bancario.
+
+- **Nota Crítica:** En el caso de compra de inmuebles o vehículos, si el monto es igual o mayor a **1 UIT**, el Notario o Juez de Paz está prohibido de formalizar el acto si no se acredita el uso de Medio de Pago
+
+**Bloque 5 — Notas de crédito y débito**
+
+**¿Cuándo se emite una nota de crédito vs nota de débito en Perú?**
+
+**¿Qué efectos tiene cada una sobre el IGV y el IR del emisor y del receptor?**
+
+**¿Cómo impacta una nota de crédito en el registro de compras/ventas?**
+
+**Dame los casos concretos: devolución, descuento, anulación, error en precio.**
+
+Como motor de clasificación automática de documentos tributarios, ejecuto el siguiente protocolo de decisión para la asignación de **Notas de Crédito (NC)** y **Notas de Débito (ND)**, basándome en la modificación de la base imponible y el flujo de crédito/débito fiscal.
+
+1. Algoritmo de Decisión: Clasificación NC vs. ND
+
+El motor evalúa la variación del valor de la operación original (Factura o Boleta de Venta) para determinar el código de comprobante (07 o 08).
+
+graph TD
+
+    A[Inicio: Modificación de Comprobante previo] --> B{¿La variación disminuye el monto original?}
+
+    B -- SÍ --> C[Emitir NOTA DE CRÉDITO - Código 07]
+
+    C --> C1[Caso: Anulación total o parcial]
+
+    C --> C2[Caso: Devolución de bienes]
+
+    C --> C3[Caso: Descuento o bonificación]
+
+    C --> C4[Caso: Error en precio - exceso]
+
+    
+
+    B -- NO --> D{¿La variación aumenta el monto original?}
+
+    D -- SÍ --> E[Emitir NOTA DE DÉBITO - Código 08]
+
+    E --> E1[Caso: Intereses por mora]
+
+    E --> E2[Caso: Error en precio - defecto]
+
+    E --> E3[Caso: Gastos adicionales recuperables]
+
+    D -- NO --> F[RECHAZO: No requiere nota de ajuste]
+
+2. Matriz de Casos Concretos y Aplicación Técnica
+
+| **Caso Operativo** | **Documento** | **Criterio de Emisión** | **Sustento PCGE (Emisor)** |
+| --- | --- | --- | --- |
+| **Anulación** | **NC** | Se deja sin efecto la operación por error en RUC o datos sustanciales. | Extorno de Cuenta 12 y 70. |
+| **Devolución** | **NC** | Entrega física de bienes retornados por el comprador. | Subcuenta **709** (Devoluciones sobre ventas). |
+| **Descuento** | **NC** | Rebajas comerciales posteriores a la emisión (no incluye pronto pago). | Subcuenta **741** (Descuentos concedidos). |
+| **Error en Precio** | **NC / ND** | Si el precio cobrado fue mayor al real: **NC**. Si fue menor: **ND**. | Ajuste en Cuentas 12 o 13 según corresponda. |
+| **Intereses** | **ND** | Gastos financieros incurridos tras la emisión del comprobante original. | Subcuenta **772** (Rendimientos financieros). |
+
+3. Matriz de Impacto Tributario (IGV e Impuesto a la Renta)
+
+El motor clasifica los efectos según el rol del contribuyente en la transacción:
+
+| **Documento** | **Efecto en IGV (Emisor)** | **Efecto en IGV (Receptor)** | **Efecto en IR (Emisor)** | **Efecto en IR (Receptor)** |
+| --- | --- | --- | --- | --- |
+| **Nota de Crédito** | **Disminuye** el Débito Fiscal del periodo. | **Disminuye** el Crédito Fiscal (obligatorio). | **Reduce** el Ingreso Bruto/Neto del ejercicio. | **Reduce** el Costo o Gasto deducible. |
+| **Nota de Débito** | **Aumenta** el Débito Fiscal del periodo. | **Aumenta** el Crédito Fiscal disponible. | **Aumenta** el Ingreso Gravable (como ingreso financiero o venta). | **Aumenta** el Gasto deducible o costo del bien. |
+
+4. Impacto en Registros Electrónicos (SIRE)
+
+En el marco del **Sistema Integrado de Registros Electrónicos (SIRE)**, el motor procesa las notas de la siguiente manera:
+
+- **Registro de Ventas e Ingresos (RVIE):** Las Notas de Crédito se anotan en el periodo de su emisión. El SIRE resta automáticamente el monto de la NC de la suma total del Débito Fiscal de las facturas del mes para proponer la declaración de IGV.
+
+- **Registro de Compras (RCE):** Las NC recibidas deben anotarse para reducir el crédito fiscal. Si la NC corresponde a una factura de un periodo anterior, el ajuste se aplica en el mes de emisión de la NC.
+
+- **Validación de Referencia:** Para ser válidas, el motor verifica que las notas consignen obligatoriamente la **serie y número del comprobante de pago que modifican**.
+
+- **Bancarización:** Si la operación original superó los **S/ 2,000 o $500** y se emite una NC por devolución parcial, el motor alerta que el reembolso también debe ser bancarizado para no invalidar la deducibilidad del saldo restante
+
+**Bloque 6 — Operaciones exoneradas vs ****inafectas**** vs gravadas**
+
+**Dame una lista de las operaciones más comunes en empresas peruanas clasificadas como:**
+
+**(1) gravadas con IGV 18%, (2) exoneradas, (3) ****inafectas****.**
+
+**¿Cuál es la diferencia contable entre exonerada e ****inafecta**** para efectos del crédito fiscal?**
+
+Como motor de clasificación automática de documentos tributarios, ejecuto el siguiente protocolo de segmentación de operaciones basado en la **Ley del IGV (TUO D.S. 055-99-EF)** y el **Plan Contable General Empresarial (PCGE)**.
+
+1. Matriz de Clasificación de Operaciones Comunes
+
+El motor utiliza los siguientes parámetros para asignar el estado tributario de la transacción:
+
+| **Tipo de Operación** | **Operaciones Comunes en Empresas Peruanas** | **Tasa Aplicable** | **Sustento Legal (TUO IGV)** |
+| --- | --- | --- | --- |
+| **Gravadas** | Venta de bienes muebles (mercaderías), prestación de servicios en el país, contratos de construcción, primera venta de inmuebles por constructor e importación de bienes. | 18% (16% IGV + 2% IPM) | Art. 1 |
+| **Exoneradas** | Venta de insumos agrícolas (semillas), hortalizas, frutas, libros, transporte público de pasajeros (excepto ferroviario/aéreo), espectáculos culturales. | 0% | Art. 5 (Apéndices I y II) |
+| **Inafectas** | Indemnizaciones laborales, intereses por préstamos entre empresas (no financieras), transferencias por reorganización de sociedades, exportación de bienes/servicios (tasa 0% técnica). | No sujeto | Art. 2 |
+
+-------------------------------------------------------------------------------- 
+
+2. Algoritmo de Decisión: Tratamiento del IGV en Compras (Crédito Fiscal)
+
+Para determinar el destino contable del IGV pagado en las adquisiciones, el motor aplica la lógica de los artículos 18 y 19 de la Ley del IGV y la dinámica de las cuentas 167 y 64 del PCGE.
+
+graph TD
+
+    A[IGV Pagado en Compras] --> B{¿Destinado a ventas gravadas?}
+
+    B -- SÍ --> C[Clasificación: CRÉDITO FISCAL]
+
+    C --> C1[Registro: Cuenta 1673 / 40111]
+
+    
+
+    B -- NO --> D{¿Destinado a ventas exoneradas o inafectas?}
+
+    D -- SÍ --> E[Clasificación: COSTO O GASTO]
+
+    E --> E1[Registro: Cuenta 6411 o mayor costo del Activo/Gasto]
+
+    
+
+    D -- NO --> F{¿Destino común: Gravadas y No Gravadas?}
+
+    F -- SÍ --> G[Clasificación: PRORRATA DE IGV]
+
+    G --> G1[Cálculo: Coeficiente de ventas gravadas / total]
+
+    G --> G2[Efecto: Parte es Crédito y parte es Gasto]
+
+-------------------------------------------------------------------------------- 
+
+3. Diferencia Contable: Exoneradas vs. Inafectas para Crédito Fiscal
+
+Aunque ambas resultan en la no aplicación del impuesto sobre la venta, su origen legal y su impacto en la recuperación del IGV de compras presentan matices técnicos:
+
+| **Criterio** | **Operación Exonerada** | **Operación ****Inafecta** |
+| --- | --- | --- |
+| **Naturaleza** | El hecho está dentro del ámbito de aplicación del IGV, pero se le libera del pago por ley. | El hecho no está comprendido en la hipótesis de incidencia o se excluye por mandato legal. |
+| **Derecho al Crédito Fiscal** | **No otorga derecho.** El IGV de las compras destinadas a estas ventas no se recupera. | **No otorga derecho.** Salvo el caso de las exportaciones (inafectación especial que sí permite recuperar el saldo a favor). |
+| **Tratamiento del IGV de Compras** | Se registra como **Gasto** (Cuenta 64) o se activa como **Costo** del bien/servicio (Cuentas 20, 33, etc.). | Se registra como **Gasto o Costo**. No puede usarse para compensar el IGV de ventas gravadas. |
+| **Anotación en el SIRE** | Se clasifica en la columna de adquisiciones destinadas a operaciones no gravadas. | Se clasifica en la columna de adquisiciones destinadas a operaciones no gravadas. |
+
+**Dictamen del Motor:** Para efectos de su plan contable PYME, si la empresa realiza ventas **exoneradas** o **inafectas**, el IGV de sus facturas de compras **debe dejar de ser un activo (1673)** para convertirse en una cuenta de **resultados (6411)** o formar parte del valor de sus existencias, afectando directamente el margen de utilidad neta de la entidad.
+
+**Bloque 7 — Retenciones y percepciones (****edge**** cases)**
+
+**¿Cuándo aplica el régimen de retenciones del IGV en Perú? ¿Y el de percepciones?**
+
+**Para cada uno: ¿quién retiene/percibe, qué porcentaje, cómo se refleja en el comprobante,**
+
+**y cómo lo clasifica el receptor en su contabilidad?**
+
+Como motor de clasificación automática de documentos tributarios peruanos, ejecuto los siguientes protocolos de validación y segmentación para los regímenes de recaudación anticipada del IGV, basados en el **Código Tributario** y el **Plan Contable General Empresarial (PCGE 2019)**.
+
+1. Régimen de Retenciones del IGV
+
+Este algoritmo se activa cuando el motor detecta que el **adquirente** (cliente) ha sido designado por SUNAT como Agente de Retención.
+
+| **Criterio de Decisión** | **Parámetro Técnico** | **Sustento Legal / PCGE** |
+| --- | --- | --- |
+| **Sujeto que ejecuta** | El **Cliente** (Agente de Retención). | Art. 10 Código Tributario |
+| **Umbral de Activación** | Operaciones > **S/ 700.00** (importe total). | Norma operativa IGV |
+| **Porcentaje de Retención** | **3%** del importe total de la operación. | Norma operativa IGV |
+| **Documento de Control** | **Comprobante de Retención** (físico o electrónico). | Art. 87, num. 3 C.T. |
+| **Efecto en el Comprobante** | La factura original se paga neta del 3%. | Práctica tributaria |
+| **Clasificación Contable (Receptor/Proveedor)** | **Cuenta 1673** (IGV por acreditar) o **40114** (IGV - Retenciones). | PCGE (Cta. 40114 / 167) |
+
+**Lógica de Compensación:** El proveedor utiliza el monto retenido para compensar automáticamente su IGV por pagar del periodo.
+
+-------------------------------------------------------------------------------- 
+
+2. Régimen de Percepciones del IGV
+
+El motor aplica este protocolo cuando el **proveedor** ha sido designado como Agente de Percepción o en operaciones de importación definitiva.
+
+| **Escenario** | **Tasa Aplicable** | **Sujeto que Percibe** | **Clasificación Contable (Receptor/Cliente)** |
+| --- | --- | --- | --- |
+| **Venta de Combustible** | **1%** | Proveedor (Grifo/Distribuidor) | **Cuenta 1673** o **40113** |
+| **Ventas Internas (Bienes)** | **2%** | Proveedor designado | **Cuenta 1673** o **40113** |
+| **Importación (General)** | **3.5%** | SUNAT (Aduanas) | **Cuenta 1673** o **40113** |
+| **Importación (1ra vez)** | **10%** | SUNAT (Aduanas) | **Cuenta 1673** o **40113** |
+| **Importación (Bienes Usados)** | **5%** | SUNAT (Aduanas) | **Cuenta 1673** o **40113** |
+
+**Reflejo Documentario:**
+
+- En ventas internas: Se emite un **Comprobante de Percepción** o se incluye el monto en la propia Factura.
+
+- En importaciones: Se consigna en la **Dua**** (Declaración Aduanera de Mercancías)**.
+
+-------------------------------------------------------------------------------- 
+
+3. Árbol de Decisión: Clasificación Contable en el PCGE 2019
+
+Para el **Receptor** (quien sufre la retención o paga la percepción), el motor clasifica el documento según el destino del crédito:
+
+graph TD
+
+    A[Recepción de Retención o Percepción] --> B{¿El crédito es para uso inmediato?}
+
+    B -- SÍ --> C[Cuenta 40114 - Retenciones acumuladas]
+
+    B -- SÍ --> D[Cuenta 40113 - Percepciones acumuladas]
+
+    B -- NO: Pendiente de aplicación --> E[Cuenta 1673 - IGV por acreditar en compras]
+
+    C --> F[Compensación automática contra IGV por pagar]
+
+    D --> F
+
+    E --> G[Traslado a Cuenta 40 al momento del devengo/uso]
+
+*[Referencia: Dinámica de Cuentas 167 y 4011, PCGE 2019]*
+
+4. Criterios de Validación de Validez (Algoritmo de Control)
+
+El motor de clasificación rechaza el uso del crédito de retenciones/percepciones si no se cumplen los siguientes requisitos:
+
+- **Anotación:** El documento debe estar anotado en el Registro de Compras (RCE/SIRE).
+
+- **Estado del Agente:** El emisor (agente) debe tener la condición de "Activo" y "Habido" al momento de la transacción.
+
+- **Prescripción:** El derecho a solicitar la devolución o compensación de saldos no aplicados prescribe a los **4 años**.
+
+- **Compensación de Oficio:** SUNAT puede compensar de oficio estas retenciones contra otras deudas tributarias exigibles si detecta saldos no aplicados
+
+**Resume todo lo anterior en un archivo de reglas de clasificación con este formato:**
+
+**TIPO_DOCUMENTO | EMISOR_VÁLIDO | OTORGA_CRÉDITO_FISCAL | DEDUCIBLE_RENTA | REQUIERE_BANCARIZACIÓN | OBSERVACIONES**
+
+**Incluye todos los tipos de comprobante vistos. Una fila por tipo.**
+
+Como motor de clasificación automática, he generado el siguiente archivo de reglas de clasificación tributaria, consolidando los criterios técnicos de validez, deducibilidad y control financiero extraídos de la normativa peruana vigente y los manuales de la SUNAT.
+
+Reglas de Clasificación de Documentos Tributarios
+
+| **TIPO_DOCUMENTO** | **EMISOR_VÁLIDO** | **OTORGA_CRÉDITO_FISCAL** | **DEDUCIBLE_RENTA** | **REQUIERE_BANCARIZACIÓN** | **OBSERVACIONES** |
+| --- | --- | --- | --- | --- | --- |
+| **Factura (01)** | RER, RMT y Régimen General. | **SÍ** (si discrimina IGV). | **SÍ** (si cumple causalidad). | SÍ (>= S/ 2,000 o $500). | Obligatorio CPE desde día 1 para nuevos inscritos en RMT/RG (desde 01/06/2026). |
+| **Boleta de Venta (03)** | NRUS, RER, RMT y Régimen General. | **NO**. | **NO** (Regla general). | SÍ (>= S/ 2,000 o $500). | Principalmente para consumidores finales; no sustenta crédito fiscal. |
+| **Recibo por Honorarios (R1)** | Personas Naturales (4ta Categoría). | **NO** (No gravado con IGV). | **SÍ**. | **SÍ** (Siempre, sin umbral mínimo). | Sujeto a retención de renta si el monto supera el tope legal establecido. |
+| **Liquidación de Compra (04)** | Personas Jurídicas que compran a no inscritos. | **SÍ** (si el comprador retiene/paga IGV). | **SÍ**. | SÍ (>= S/ 2,000 o $500). | Para adquisiciones de productos primarios, artesanía o desperdicios. |
+| **Tickets o Cintas** | Máquinas registradoras autorizadas. | **SÍ** (si identifica RUC y desglosa IGV). | **SÍ** (si identifica al adquirente). | SÍ (>= S/ 2,000 o $500). | Si no identifica al usuario, se trata como boleta de venta (no crédito/no gasto). |
+| **Nota de Crédito (07)** | El mismo emisor del comprobante original. | **AJUSTA (Resta)** crédito/débito. | **AJUSTA (Resta)** gasto/ingreso. | SÍ (si el reembolso supera topes). | Debe consignar serie y número del documento que modifica obligatoriamente. |
+| **Nota de Débito (08)** | El mismo emisor del comprobante original. | **AJUSTA (Suma)** crédito/débito. | **AJUSTA (Suma)** gasto/ingreso. | SÍ (si el nuevo total supera topes). | Se usa para intereses por mora o recuperación de gastos incurridos. |
+| **Guía de Remisión (09/31)** | Remitente o Transportista. | **NO** (Es documento de control). | **NO** (Pero sustenta fehaciencia). | N/A | Documento obligatorio para sustentar el traslado de bienes y evitar comiso. |
+| **Comprobante de Retención** | Agente de Retención designado. | **SÍ** (Como pago anticipado). | N/A | N/A | Permite deducir el 3% del pago total contra el IGV por pagar del periodo. |
+| **Comprobante de Percepción** | Agente de Percepción designado. | **SÍ** (Como pago anticipado). | N/A | N/A | El cliente utiliza el monto pagado (1% al 10%) como crédito contra su IGV. |
+
+Notas Críticas de Implementación (Algoritmo de Control)
+
+- **Bancarización:** El incumplimiento del uso de Medios de Pago en operaciones iguales o superiores a **S/ 2,000 o $500** anula irreversiblemente el derecho al crédito fiscal y a la deducibilidad del gasto, incluso si la operación es real.
+
+- **Validez del Emisor:** El motor debe verificar mediante el servicio web de SUNAT que el emisor esté "Activo" y su domicilio fiscal sea "Habido" al momento de la emisión; de lo contrario, el documento es rechazado.
+
+- **Anotación Electrónica:** Para que el crédito fiscal sea válido, la factura debe estar anotada en el **SIRE (RCE)** dentro del plazo legal y antes de cualquier requerimiento de SUNAT.
+
+- **Causalidad:** Todo documento clasificado como deducible para Renta debe estar vinculado directamente con la generación de ingresos o el mantenimiento de la fuente productora
