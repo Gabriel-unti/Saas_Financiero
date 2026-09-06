@@ -1,0 +1,259 @@
+
+
+<style>
+	#tablaHorario td{
+		border:1px solid #000000 !important;
+	}
+	
+	#tdBlancoDerecha{
+		border-right:0px solid #ffffff !important;
+	}
+	
+	#tdBlancoIzquierda{
+		border-left:0px solid #ffffff !important;
+	}
+	
+</style>
+<div align="left">            
+
+
+
+
+
+<p><img width="264" height="69" src="https://www.bbva.pe/content/dam/public-web/peru/images/logos/logo-bbva.png"></p>
+
+
+
+	<p><strong>&nbsp;&nbsp;EMPRESA:</strong>&nbsp;&nbsp;BRAIDY WONDERS SAC</p>
+	<p><strong>&nbsp;&nbsp;USUARIO:</strong>&nbsp;&nbsp;GABRIEL  UNTIVEROS</p>
+
+
+<div class="page_title_h">
+<h2>Transferencias Interbancarias</h2>
+<span class="description"></span>
+</div>
+
+
+
+<!------------------------------------ 			transformacion de pagina -->
+
+	<div class="contenedor-table">
+	 <table class="table-general table" width="100%" border="0" cellpadding="0" cellspacing="0"> 
+        <tbody>   
+            <tr class="th">
+                <td width="50%" class="cell-header">Importe Transferido</td>
+                <td class="cell-amount">
+				
+                	
+					
+					105.00&nbsp;
+					<span style="text-transform: uppercase;">
+					DÓLARES
+					
+					</span>
+                </td>
+            </tr> 
+            <tr class="line-separator">
+            	<td class="icon-account" style="width:50%;" valign="top">
+            		<table border="0" style="border-bottom: 0px;  width:100%; height:auto;">
+            			<tr>
+            				<td valign="top" class="icon-left" style="border-bottom: 0px;">
+            					
+            				</td>
+            				<td style="border-bottom: 0px">
+            					Número de Cuenta de Cargo<br />
+			                    <span class="text-blue">0011-0157-550100060986</span><br />
+			                     BRAIDY WONDERS SAC
+            				</td>
+            			</tr>
+            		</table>         
+                </td>
+                <td class="icon-account" valign="top">
+                	<table border="0" style="border-bottom: 0px; width:100%; height:auto;">
+            			<tr>
+            				<td valign="top" class="icon-left" style="border-bottom: 0px">
+            					
+            				</td>
+            				<td style="border-bottom: 0px">
+            					Número de Cuenta Interbancaria de Abono<br />
+							<span class="text-blue">002-193-002154095144-15</span><br />
+							LA FIDUCIARIA LF PERURAIL REC
+            				</td>
+            			</tr>
+            		</table>              		
+                </td>
+            </tr>
+            <tr>
+            	<td colspan="2" class="cell-title">Detalle de la operación</td>
+            </tr>
+            <tr >
+			
+				<td>Importe a Transferir</td>
+			
+				<td style="text-transform: uppercase;"> 105.00&nbsp;&nbsp;DÓLARES</td>
+			
+			</tr>
+          
+			<tr>
+				<td >Número de Solicitud</td>
+				<td>1511</td>
+			</tr>
+			
+			<tr >
+				<td>Operaci&oacute;n</td>
+				<td>Transferencia Interbancaria</td>
+			</tr>
+			
+			<tr >
+				<td>Tipo de transferencia</td>
+				<td>Por Horarios</td>
+			</tr>
+				<tr >
+			
+				<td>Tipo de Cambio</td>
+			
+				<td >0.0000</td>
+			
+			</tr>
+			
+			<tr >
+			
+			  <tr >
+				<td >Importe Cargado</td>
+				<td style="text-transform: uppercase;">106.53&nbsp;&nbsp;DÓLARES</td>
+			</tr>
+			
+			
+			
+             <tr  class="line-separator">
+
+				<td>Tipo y Número de Documento del Beneficiario</td>
+				<td>RUC&nbsp;-&nbsp;20431871808&nbsp;</td>
+			
+			</tr>
+            <tr>
+            	<td colspan="2" class="cell-title">Detalle de Comisiones</td>
+            </tr>
+            <tr  class="line-separator">
+			
+				<td >Comisi&oacute;n</td>
+			
+				<td>1.53&nbsp;&nbsp;DÓLARES</td>
+			
+			</tr>
+            
+            <tr>
+            	<td colspan="2" class="cell-title">Datos Adicionales</td>
+            </tr>
+            <tr >
+			
+				<td >Banco Destino</td>
+			
+				<td >BANCO DE CRÉDITO DEL PERÚ</td>
+			
+			</tr>
+           
+			<tr >
+			
+				<td >Uso de Red</td>
+			
+				<td >0.00&nbsp;&nbsp;DÓLARES</td>
+			
+			</tr>
+            <tr  >
+			
+				<td>Usuario que autoriza - 1ra Firma</td>
+			
+				<td>GABRIEL  UNTIVEROS</td>
+			
+			</tr>
+            
+        </tbody>
+    </table>
+    </div>
+
+	<!--------------------------------------	transformacion de pagina -->
+
+
+
+<TABLE class="oculta table_large">
+<tr>
+<td align="center">
+
+
+	Ud. informó como NO PROPIA la cuenta de abono. NO será exonerada de ITF.
+
+</td>
+</tr>
+</TABLE>
+<!-- (Fin) Contenido de la Tabla  transferencia CCE //-->
+<br><br>
+<!--<form name="cuerpo" method="post">
+<input type="hidden" name="cadena">
+<input type="hidden" name="funcion">
+<input type="hidden" name="Operacion"> 
+<input type="hidden" name="NumCuentaCargo">
+<input type="hidden" name="MonCuentaCargo">  
+<input type="hidden" name="NumCuentaAbono">
+<input type="hidden" name="MonCuentaAbono">
+<input type="hidden" name="TitCuentaAbono">
+<input type="hidden" name="CadenaVolver">
+<input type="hidden" name="DatosTit" value="">
+<input type="hidden" name="firma" value="N">
+<input type="hidden" name="Direccion">
+<input type="hidden" name="Motivo">
+<input type="hidden" name="BancoPagador">
+<input type="hidden" name="DireccionBPagador">
+<input type="hidden" name="pfvolver" value="N">
+<input type="hidden" name="TitCuentaCargo">
+<div class="oa mb10">
+<table class="tb_info pdfexportnone">
+<tr>
+	<td class="ta_c">
+	¿Desea enviar la confirmación del pago realizado?
+	<input type="button" value="     Si    " onclick="enviar('s')" size="15" name="b1" class="bt_m bt_azul"></p>
+	</td>
+</tr>
+</table>
+</div>
+
+</form>
+-->
+
+
+
+
+ 
+<table class="oculta">
+<tr>
+	<td  colspan="2" align="justify"><b>Estimado Cliente :</b><br>
+	Esta operación requiere autorización de otro firmante con facultades para operar en el canal electrónico.<br>
+	Tome nota del ?Número de Solicitud? e informe al otro firmante que deberá autorizar/rechazar la operación mediante la opción: Firmas / Operaciones pendiente de firma.<br>
+	Esta operación tiene vigencia por <b>5</b> días calendario hasta el <b>16/08/2026</b>. Luego pasará a situación vencida.
+</td>
+</tr>
+</table>
+
+<table class="oculta table_large">
+	<tr>
+	<td></td>
+	</tr>
+	<tr>
+	<td align="justify">
+	Recuerde que puede afiliarse al servicio de alertas de operaciones pendientes de firma ingresando al módulo de Alertas/Afiliación.
+	</td>
+	</tr>
+</table>
+
+
+
+</div>
+</center>
+</div>
+</div>
+
+
+</div>
+
+ 
+          

@@ -1,0 +1,294 @@
+
+
+<HTML>
+<HEAD>
+  <title></title> 
+  <meta http-equiv="Expires" CONTENT="0">
+  <meta http-equiv="Pragma" CONTENT="no-cache">  
+</HEAD> 
+<BODY bgcolor="#ffffff">
+	
+ 
+<div align="left">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+</head>
+
+<body>
+	
+
+<div id="cia_data">
+	<ul>
+		<li id="id_cia_name" class="cia_name"><span>BRAIDY WONDERS SAC</span></li>
+		<li id="id_today_date" class="today_date"><span>2026/08/20  10:49:50</span></li>
+	</ul>
+
+</div>
+
+
+<div id="gestor_data" style="margin:-8px 0px 15px 0px; font-size:10px;">
+	
+	
+	
+</div>
+
+
+	<iframe style="display: none" id="frameMonitorB"></iframe>
+	<iframe style="display: none" id="frameMonitorA"></iframe>
+
+
+
+
+
+
+	
+</body>
+</html>
+
+
+
+<p><img width="264" height="69" src="https://www.bbva.pe/content/dam/public-web/peru/images/logos/logo-bbva.png"></p>
+
+
+<div class="page_title">
+	<h2>Consulta de Operaciones</h2>
+	
+</div>
+
+	
+
+
+<div class="info">
+	<h3>Detalle del movimiento : 12056</h3>
+	<table class="tb_info">
+	<tr>
+		<td width="200">N&uacute;mero de Cuenta</td>
+		<td>0011-0157-01-00060986&nbsp;CUENTA CORRIENTE</td>
+	</tr>
+	<tr>
+		<td>Importe</td>
+		<td class="tr_der_blan" width="40%">3,102.00&nbsp;DOLARES US</td>
+	</tr>
+	<tr>
+		<td>Descripci&oacute;n de Operaci&oacute;n</td>
+		<td>ABONO ORD.REC.</td>
+	</tr>
+	<tr>
+		<td>Literal</td>
+		<td>O.PAGO REC EXT LIQ:0320052</td>
+	</tr>
+	<tr>
+		<td>Fecha y Hora de Operaci&oacute;n</td>
+		<td>2026-08-20&nbsp;10:13</td>
+	</tr>
+	<tr>
+		<td>Oficina Origen</td>
+		<td>0953</td>
+	</tr>
+	</table>
+</div>
+
+
+<table class="tb_data">
+	<tr class="tb_header">
+		<th colspan="2">Mensaje Swift</th> 
+	</tr> 
+	
+		<tr class="tb_column_header">
+	  		<td colspan="2">--------------------------- Message Header -------------------------</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2"> Sender       : BKTRUS33XXX</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2">                DEUTSCHE BANK TRUST COMPANY AMERICA</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2">                NEW YORK,NY</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2"> Receiver     : BCONPEPLXXX</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2">                BANCO BBVA PERU</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2">                LIMA</td>		
+	  	</tr>
+	
+		<tr class="tb_column_header">
+	  		<td colspan="2">--------------------------- Message Text ---------------------------</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2">  20: Referencia del remitente</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2">      C196607BBK081926</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2"> 23B: Codigo sta operacion bancaria</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2">      CRED</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2"> 32A: Fcha val/mnda/impte lqdcion intb</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2">      Date           : 19 August 2026</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2">      Currency       : USD (US DOLLARS)</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2">      Amount         :         3102,00</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2"> 33B: Moneda/Monto Instruido           !</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2">      Currency       : USD (US DOLLARS)</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2">      Amount         :         3102,00</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2"> 50K: Cliente ordenante-Nom/Direccion</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2">      /341563</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2">      TULLY LUXURY TRAVEL INC.</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2">      SUITE 200 1270 CENTRAL PARKWAY</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2">      WEST MISSISSAUGA ONTARIO L5C 4P4 CA</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2">      NOTPROVIDED</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2"> 57A: Entidad dptaria de la cta - BIC</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2">      BCONPEPLXXX</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2">      BANCO BBVA PERU</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2">      LIMA                     LIMA 27</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2">      PERU</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2">  59: Cliente beneficiario - Nom/Direc</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2">      /001101570100060986</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2">      BRAIDY WONDERS S.A.C.</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2">      AV. SAN MARTIN 140 DPTO 104</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2">      BARRANCO LIMA LIMA 15063 PE</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2">      NOTPROVIDED</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2">  70: Descripcion de la remesa</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2">      TRAVEL HOSPITALITY/INV 270100003 AN</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2"> 71A: Especificacion de gastos</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2">      SHA</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2"> 71F: Cargos del remitente/Moneda-Monto!</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2">      Currency       : USD (US DOLLARS)</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2">      Amount         :</td>		
+	  	</tr>
+	
+		<tr class="even">
+	  		<td colspan="2">  72: Info de remitente a destinatario</td>		
+	  	</tr>
+	
+		<tr class="odd">
+	  		<td colspan="2">      be2431dc-66c1-40df-8627c34c18360825</td>		
+	  	</tr>
+	
+		<tr class="tb_column_header">
+	  		<td colspan="2">--------------------------- End Message ----------------------------</td>		
+	  	</tr>
+	
+	<tr class="tb_footer">
+		<th colspan="2">Fin de Mensaje Swift</th>
+	</tr>
+</table>
+</div>
+ 
+		
+<p>
+</BODY>
+</HTML>

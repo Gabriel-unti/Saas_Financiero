@@ -1,0 +1,137 @@
+
+
+<HTML>
+<HEAD>
+  <title></title> 
+  <meta http-equiv="Expires" CONTENT="0">
+  <meta http-equiv="Pragma" CONTENT="no-cache">  
+</HEAD> 
+<BODY bgcolor="#ffffff">
+
+
+<br> 
+<div align="left">
+
+
+<p><img width="264" height="69" src="https://www.bbva.pe/content/dam/public-web/peru/images/logos/logo-bbva.png"></p>
+
+
+
+
+<script>
+function envio(form){
+	form.operSwiftOp.value="0";
+	form.numCuenta.value="0011-0157-01-00061036";
+	form.descCuenta.value="CUENTA EMPRESA";
+	form.importe.value="-500.00";
+	form.moneda.value="SOLES";
+	form.descMov.value="PAGO DE SERV";
+	form.fechOper.value="2026-08-07";
+	form.horOper.value="14:06";
+	form.literal.value="TRANSF.INTERBANCARIA.CCE 007053986";
+	form.centroMov.value="0157";
+	form.movimiento.value="7400";
+	form.boton.disabled=true;
+	form.action="OperacionCBTFServlet?proceso=relacion_operaciones_pr&operacion=relacion_oper_te_op&accion=detalleSwift";
+	form.submit();
+}
+
+
+function listInterbancarioSwift(form){
+		form.posicionDetalle.value=form.rutaVolver.value;
+		form.operSwiftOp.value="0";
+		form.numCuenta.value="0011-0157-01-00061036";		
+		form.action=form.action.value;
+		form.submit();
+		
+	} 
+
+</script>
+<form name="entrada" method="post" action="null" >
+<input type=hidden name=pagina value=0>
+<input type=hidden name=kilo value=0>
+<input type=hidden name=operSwiftOp>
+<input type=hidden name=numCuenta>
+<input type=hidden name=descCuenta>
+<input type=hidden name=importe>
+<input type=hidden name=moneda>
+<input type=hidden name=descMov>
+<input type=hidden name=fechOper>
+<input type=hidden name=horOper>
+<input type=hidden name=literal>
+<input type=hidden name=centroMov>
+<input type=hidden name=movimiento>
+<input type=hidden name=posicionDetalle>
+
+<div class="page_title">
+	<h2>Cuentas Jurídicas</h2>
+</div>
+
+
+<div class="info">
+	<h3>Detalle del movimiento: 7400</h3>	
+	<table class="tb_info">
+	<tr>
+		<td width="250"><b>Número de Cuenta :</b></td>
+		<td><span>0011-0157-01-00061036&nbsp;CUENTA EMPRESA</span></td>
+	</tr>
+	
+	
+		
+			<tr>
+				<td><b>Cuenta Beneficiaria :</b></td>
+				<td><span>002-194-137090206054-96</span></td>
+			</tr>
+		
+	
+	
+	<tr>
+		<td><b>Importe :</b></td>
+		<td><span>-500.00&nbsp;SOLES</span></td>
+	</tr>
+	<tr>
+		<td><b>Descripción de Operación :</b></td>
+		<td><span>PAGO DE SERV</span></td>
+	</tr>
+	<tr>
+		<td><b>Número de Cheque :</b></td>
+		<td><span>0</span></td>
+	</tr>
+	<tr>
+		<td><b>Literal :</b></td>
+		<td><span>TRANSF.INTERBANCARIA.CCE 007053986</span></td>
+	</tr>
+	<tr>
+		<td><b>Tipo :</b></td>
+		<td><span>MANUAL</span></td>
+	</tr>
+	<tr>
+		<td><b>Fecha Valor :</b></td>
+		<td><span>07/08/2026</span></td>
+	</tr>
+	<tr>
+		<td><b>Fecha Contable :</b></td>
+		<td><span>07/08/2026</span></td>
+	</tr>
+	<tr> 
+		<td><b>Fecha y Hora de Operación :</b></td>
+		<td><span>07/08/2026&nbsp; 14:06</span></td>
+	</tr>
+	<tr>
+		<td><b>Oficina Origen :</b></td>
+		<td><span>0157</span></td>
+	</tr>
+	</table>	
+</div>
+
+
+
+
+
+<!--Contenido de la tabla principal Fin-->
+</form>
+</div>
+
+<p>
+</BODY>
+</HTML>

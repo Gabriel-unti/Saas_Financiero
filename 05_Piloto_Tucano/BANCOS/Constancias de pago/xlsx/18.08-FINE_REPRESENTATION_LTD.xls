@@ -1,0 +1,180 @@
+
+
+<HTML>
+<HEAD>
+  <title></title> 
+  <meta http-equiv="Expires" CONTENT="0">
+  <meta http-equiv="Pragma" CONTENT="no-cache">  
+</HEAD> 
+<BODY bgcolor="#ffffff">
+     
+
+<div align="left">
+
+ 
+
+
+ 
+	<p><img width="264" height="69" src="https://www.bbva.pe/content/dam/public-web/peru/images/logos/logo-bbva.png"></p>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+</head>
+
+<body>
+	
+
+<div id="cia_data">
+	<ul>
+		<li id="id_cia_name" class="cia_name"><span>BRAIDY WONDERS SAC</span></li>
+		<li id="id_today_date" class="today_date"><span>2026/08/18  13:39:43</span></li>
+	</ul>
+
+</div>
+
+
+<div id="gestor_data" style="margin:-8px 0px 15px 0px; font-size:10px;">
+	
+	
+	
+</div>
+
+
+	<iframe style="display: none" id="frameMonitorB"></iframe>
+	<iframe style="display: none" id="frameMonitorA"></iframe>
+
+
+
+
+
+
+	
+</body>
+</html>
+
+<div class="page_title_h">
+	<h2>Consulta de Operaciones</h2>
+		
+</div>
+
+<div class="info">
+	<h3>Su operación ha sido realizada</h3>
+	<table class="tb_info">
+		
+	
+		<tr>
+			<td width="250"><b>N&uacute;mero de Operaci&oacute;n</b></td>
+			<td><span>000317396</span></td>
+		</tr>
+		
+		<tr>
+			<td><b>Tipo de Operaci&oacute;n</b></td>
+			<td><span>TRANSFERENCIAS AL EXTERIOR</span></td>
+		</tr>
+		<tr>
+			<td><b>Número de Cuenta de Cargo</b></td>
+			<td><span>00110157550100060986&nbsp;</span></td>
+		</tr>
+		<tr>
+			<td><b>Titular de la Cuenta Cargo</b></td>
+			<td><span>BRAIDY WONDERS SAC</span></td>
+		</tr> 
+	 	<tr>
+			<td><b>Importe Cargado</b></td>
+			<td><span>850.00&nbsp;&nbsp;&nbsp;
+			 LIBRAS ESTERLINAS
+	          </span></td>
+		</tr>
+		
+		
+		
+		
+		<tr>
+			<td><b>Tipo de cambio</b></td>
+			<td><span>2.8470</span></td>
+		</tr>
+		<tr>
+			<td><b>Número de Contrato</b></td>
+			<td><span>6364712</span></td>
+		</tr>
+		
+		
+		<tr>
+			<td><b>Cuenta / Tarjeta / Servicio Beneficiario</b></td>
+			<td><span>  GB75SRLG60837191680352 
+	
+			&nbsp;&nbsp;&nbsp; </span>
+			</td>
+		</tr>
+		
+		<tr>
+			<td><b>Fecha / Hora</b></td>
+			<td><span>2026-08-18 &nbsp;&nbsp;&nbsp; 
+			13:38:43
+			</span></td>
+		</tr>
+		
+		
+		<tr>
+			<td><b>Tipo de cambio</b></td>
+			<td><span>2.8470</span></td>
+		</tr>
+		<tr>
+			<td><b>Número de Contrato</b></td>
+			<td><span>6364712</span></td>
+		</tr>
+		
+		
+		
+		
+			<tr>
+			<td><b>Referencia</b></td>
+			<td><span>INVOICE ONBOARDING FEE             CONSU</span></td>
+			</tr>
+
+			
+	</table> 
+</div>
+
+
+
+
+<form method="post" name="form">
+	<input type=hidden name=operSwiftOp />
+	<input type=hidden name=numCuenta value=""/>
+	<input type=hidden name=descCuenta value=""/>
+	<input type=hidden name=importe value=""/>
+	<input type=hidden name=moneda value=""/>
+	<input type=hidden name=descMov value=""/>
+	<input type=hidden name=fechOper value=""/>
+	<input type=hidden name=horOper value=""/>
+	<input type=hidden name=literal value=""/>
+	<input type=hidden name=centroMov value=""/>
+	<input type=hidden name=movimiento value=""/>
+
+	<div class="formActionButtons">							
+		<div class="col_lg_6 ta_c">
+			<input class="aceptar bt_m bt_azul" type="button" onClick="envio(this.form);" name="boton" value="Ver Mensaje SWIFT">
+		</div>
+		
+		<div class="col_lg_6 ta_c">
+			<input class="aceptar bt_m bt_azul" type="button" onClick="listInterbancarioSwift(this.form);" name="boton" value="Ver Tracking">
+		</div>
+	</div>
+
+</form>
+
+
+    
+
+
+</div>
+
+
+<p>
+</BODY>
+</HTML>
