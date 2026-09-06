@@ -84,16 +84,17 @@ Archivo completo: `.claude/perfil_psicologico.md` -- consultar cuando haya coach
   Fuente_Original_Proyecto_contable/  data cruda que origino el piloto (facturas MEDIA SOLUTION, etc.)
 03_Docs_Tecnicas/    Normativa SUNAT/PCGE, doc tecnica P5, doc CWC, transformacion de datos bancarios, workflow GitHub
 04_Comercial/        Modelo de negocio del SaaS
-Tucano/              (pendiente de clonar) -- codigo de produccion del piloto, github.com/Gabriel-unti/Tucano
+05_Piloto_Tucano/    Datos operativos reales extraidos de Tucano (flujo de caja, libro diario, facturas, cuentas por pagar) -- ver su README.md
+Tucano/              (clonado localmente 2026-09-06, gitignored) -- codigo de produccion completo, repo hermano github.com/Gabriel-unti/Tucano
 ```
 
-**Nota de nomenclatura:** `Cliente_CarlosTorres/` y `Fuente_Original_Proyecto_contable/` usan datos reales de un cliente (CT Prime Consulting SAC) -- no compartir esas carpetas fuera de este entorno sin anonimizar.
+**Nota de nomenclatura:** `Cliente_CarlosTorres/` y `Fuente_Original_Proyecto_contable/` usan datos reales de un cliente (CT Prime Consulting SAC) -- no compartir esas carpetas fuera de este entorno sin anonimizar. `05_Piloto_Tucano/` usa datos reales de la propia empresa donde Gabriel es tesorero (Braidy Wonders SAC) -- mismo cuidado de confidencialidad, repo debe permanecer privado.
 
 | Componente                               | Estado                                                                    |
 | ---------------------------------------- | ------------------------------------------------------------------------- |
 | P5 Automatizacion Contable (piloto demo) | Migrado aqui desde Proyecto_Gabriel, base tecnica para el SaaS            |
 | Financial Pulse - Agente Tesoreria       | Capas 1-3 OK, Capa 4 (Memory Store) pendiente                             |
-| Piloto Tucano Peru / Braidy Wonders      | Activo en produccion -- codigo en repo separado, pendiente de clonar aqui |
+| Piloto Tucano Peru / Braidy Wonders      | Activo en produccion -- codigo clonado en `Tucano/`, datos operativos extraidos en `05_Piloto_Tucano/` |
 
 Marca visual: `#0A1A3F` / `#C9A227`
 
@@ -101,7 +102,7 @@ Marca visual: `#0A1A3F` / `#C9A227`
 
 ## 7b. Seguimiento de Tareas
 
-**Prioridad inmediata:** clonar `github.com/Gabriel-unti/Tucano` en esta carpeta y decidir si se integra como subcarpeta de este repo o se referencia como repo hermano. Sin ese codigo, este repo solo tiene el conocimiento y el piloto demo, no el sistema en produccion.
+**[X] Clonar Tucano (2026-09-06):** `github.com/Gabriel-unti/Tucano` clonado en `Tucano/` como repo hermano (gitignored, no se versiona dentro de Saas_Financiero). Datos operativos clave (flujo de caja, libro diario, facturas, cuentas por pagar) copiados aparte a `05_Piloto_Tucano/` para trabajar sobre ellos en el piloto del SaaS.
 
 Pendiente heredado de Tucano (repo `Tucano`, seccion 11 de su CLAUDE.md -- confirmar vigencia al clonar):
 
