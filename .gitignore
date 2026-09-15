@@ -20,3 +20,11 @@ Thumbs.db
 
 # Repo hermano clonado localmente como referencia (git propio, produccion real)
 /Tucano/
+
+# Facturas reales de proveedores de Braidy Wonders agregadas como muestra
+# para el Agente Contable (2026-09-14): incluyen datos de huespedes (nombre,
+# pasaporte, nacionalidad) en algunos casos. Se usan localmente para construir
+# el ground truth (01_Agente_IA/agente_contable/data/compras_reales_ground_truth.csv,
+# que SI se versiona porque no contiene datos de huespedes), pero los PDFs
+# originales no se suben a git.
+/02_Piloto_P5/Fuente_Original_Proyecto_contable/facturas_proveedores/

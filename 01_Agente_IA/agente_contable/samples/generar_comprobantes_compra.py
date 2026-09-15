@@ -14,6 +14,10 @@ RS N 000040-2022/SUNAT -- ver 02_Piloto_P5/Fuente_Original_Proyecto_contable/Dat
 Asi el output del Agente Contable es directamente compatible con SIRE,
 no solo un reporte interno.
 
+Los codigos y tasas de detraccion (columnas clu2/clu3) siguen la tabla
+verificada en src/tabla_spot.py (Anexo III RS 183-2004/SUNAT y modif.),
+no valores inventados.
+
 Uso: python generar_comprobantes_compra.py
 Salida: samples/compras/*.pdf + samples/compras_ground_truth.csv
 """
@@ -43,10 +47,15 @@ COMPROBANTES = [
         afectacion_igv="gravada",
         medio_pago="Transferencia bancaria",
         aplica_detraccion="si",
-        codigo_spot="026",
+        codigo_spot="ANEXO_IV",
         tasa_detraccion=0.04,
         cuenta_gasto_pcge="631",
-        notas="",
+        notas="Transporte de BIENES (carga) por via terrestre es Anexo IV "
+        "(RS 073-2006/SUNAT), regimen aparte del Anexo III -- NO usar el "
+        "codigo 026 (ese es transporte de PERSONAS, tasa 10%, confirmado "
+        "contra factura real). El codigo de 3 digitos del Anexo IV no esta "
+        "verificado todavia (ver src/tabla_spot.py), por eso se deja como "
+        "marcador en vez de inventar un numero.",
     ),
     dict(
         archivo="FC-002_office_supply_peru.pdf",
@@ -83,10 +92,12 @@ COMPROBANTES = [
         afectacion_igv="gravada",
         medio_pago="Transferencia bancaria",
         aplica_detraccion="si",
-        codigo_spot="022",
+        codigo_spot="020",
         tasa_detraccion=0.12,
-        cuenta_gasto_pcge="632",
-        notas="",
+        cuenta_gasto_pcge="634",
+        notas="Codigo 020 = Mantenimiento y reparacion de bienes muebles "
+        "(numeral 3, Anexo III), tasa 12% desde 01.04.2018 "
+        "(RS 071-2018/SUNAT). Ver src/tabla_spot.py.",
     ),
     dict(
         archivo="RHE-001_maria_quispe.pdf",
@@ -143,10 +154,11 @@ COMPROBANTES = [
         afectacion_igv="gravada",
         medio_pago="Transferencia bancaria",
         aplica_detraccion="no",
-        codigo_spot="021",
-        tasa_detraccion="",
+        codigo_spot="022",
+        tasa_detraccion=0.12,
         cuenta_gasto_pcge="639",
-        notas="Codigo SPOT 021 esta en la lista, pero el importe (590) "
+        notas="Codigo 022 = Otros servicios empresariales (incluye seguridad, "
+        "numeral 5, Anexo III) esta en la lista, pero el importe (590) "
         "no supera el umbral de S/700: NO aplica detraccion.",
     ),
     dict(
@@ -224,10 +236,11 @@ COMPROBANTES = [
         afectacion_igv="gravada",
         medio_pago="Transferencia bancaria",
         aplica_detraccion="si",
-        codigo_spot="020",
-        tasa_detraccion=0.12,
-        cuenta_gasto_pcge="634",
-        notas="",
+        codigo_spot="019",
+        tasa_detraccion=0.10,
+        cuenta_gasto_pcge="635",
+        notas="Codigo 019 = Arrendamiento de bienes (numeral 2, Anexo III), "
+        "tasa 10% (no cambio en 2018). Ver src/tabla_spot.py.",
     ),
 ]
 
