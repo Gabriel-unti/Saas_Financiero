@@ -7,6 +7,13 @@ Todos los RUC, razones sociales y montos son inventados. El receptor
 ningun cliente real -- por decision explicita, este set nunca usa datos
 de Braidy Wonders / Tucano Peru.
 
+El CSV de referencia sigue la estructura oficial del "Reemplazo de la
+Propuesta del RCE" (Registro de Compras Electronico), Anexo 11 de la
+RS N 000040-2022/SUNAT -- ver 02_Piloto_P5/Fuente_Original_Proyecto_contable/Data/
+(Estructura_del_Reemplazo_RCE.xlsx, Estructura_registro_compras.png).
+Asi el output del Agente Contable es directamente compatible con SIRE,
+no solo un reporte interno.
+
 Uso: python generar_comprobantes_compra.py
 Salida: samples/compras/*.pdf + samples/compras_ground_truth.csv
 """
@@ -349,41 +356,116 @@ def generar_pdf(ruta: Path, c: dict):
     cv.save()
 
 
+CATALOGO_01_TIPO_CP = {
+    "factura": "01",
+    "RHE": "02",
+    "boleta": "03",
+}
+
+# Columnas alineadas al "Reemplazo de la Propuesta del RCE" (Anexo 11,
+# RS N 000040-2022/SUNAT). Nombre de columna -> (Campo oficial, descripcion).
+# Campos 28-32 (doc. modificado), 34-36 (proyectos operadores) y 38-41
+# quedan vacios: no aplican a compras nacionales sin notas de credito/debito
+# ni a contratos de operadores de hidrocarburos. Los CLUn son "Clasificador
+# de Uso Libre" (Campo 42+), provistos por SUNAT para informacion interna
+# del contribuyente -- los usamos para lo que el RCE oficial no registra
+# (detraccion, cuenta PCGE, trazabilidad al comprobante origen).
+COLUMNAS_RCE = [
+    ("campo01_ruc", "ruc"),
+    ("campo02_razon_social_titular", "razon_social_titular"),
+    ("campo03_periodo", "periodo"),
+    ("campo04_car_sunat", "car_sunat"),
+    ("campo05_fecha_emision", "fecha_emision"),
+    ("campo06_fecha_vcto_pago", "fecha_vencimiento_pago"),
+    ("campo07_tipo_cp", "tipo_cp"),
+    ("campo08_serie_cdp", "serie_cdp"),
+    ("campo09_anio", "anio"),
+    ("campo10_nro_inicial", "nro_inicial"),
+    ("campo11_nro_final", "nro_final"),
+    ("campo12_tipo_doc_identidad", "tipo_doc_identidad_proveedor"),
+    ("campo13_nro_doc_identidad", "nro_doc_identidad_proveedor"),
+    ("campo14_razon_social_proveedor", "razon_social_proveedor"),
+    ("campo15_bi_gravado_dg", "bi_gravado_dg"),
+    ("campo16_igv_dg", "igv_dg"),
+    ("campo17_bi_gravado_dgng", "bi_gravado_dgng"),
+    ("campo18_igv_dgng", "igv_dgng"),
+    ("campo19_bi_gravado_dng", "bi_gravado_dng"),
+    ("campo20_igv_dng", "igv_dng"),
+    ("campo21_valor_adq_ng", "valor_adq_ng"),
+    ("campo22_isc", "isc"),
+    ("campo23_icbper", "icbper"),
+    ("campo24_otros_trib_cargos", "otros_trib_cargos"),
+    ("campo25_total_cp", "total_cp"),
+    ("campo26_moneda", "moneda"),
+    ("campo27_tipo_cambio", "tipo_cambio"),
+    ("campo33_clasif_bss_sss", "clasif_bss_sss"),
+    ("campo37_car_orig", "car_orig"),
+    ("clu1_aplica_detraccion", "clu1_aplica_detraccion"),
+    ("clu2_codigo_spot", "clu2_codigo_spot"),
+    ("clu3_tasa_detraccion", "clu3_tasa_detraccion"),
+    ("clu4_monto_detraccion", "clu4_monto_detraccion"),
+    ("clu5_cuenta_gasto_pcge", "clu5_cuenta_gasto_pcge"),
+    ("clu6_archivo_origen", "clu6_archivo_origen"),
+    ("clu7_notas", "clu7_notas"),
+]
+
+
+def fila_rce(c: dict) -> dict:
+    serie, correlativo = c["serie_correlativo"].split("-")
+    dd, mm, aaaa = c["fecha_emision"].split("/")
+    no_gravado = c["afectacion_igv"] == "no_gravado"
+
+    valores = {
+        "ruc": RECEPTOR_RUC,
+        "razon_social_titular": RECEPTOR_RAZON,
+        "periodo": f"{aaaa}{mm}",
+        "car_sunat": "",
+        "fecha_emision": c["fecha_emision"],
+        "fecha_vencimiento_pago": c["fecha_emision"],
+        "tipo_cp": CATALOGO_01_TIPO_CP[c["tipo_comprobante"]],
+        "serie_cdp": serie,
+        "anio": "",
+        "nro_inicial": correlativo,
+        "nro_final": correlativo,
+        "tipo_doc_identidad_proveedor": "6",
+        "nro_doc_identidad_proveedor": c["ruc_emisor"],
+        "razon_social_proveedor": c["razon_social_emisor"],
+        "bi_gravado_dg": 0.00 if no_gravado else c["base_imponible"],
+        "igv_dg": 0.00 if no_gravado else c["igv"],
+        "bi_gravado_dgng": 0.00,
+        "igv_dgng": 0.00,
+        "bi_gravado_dng": 0.00,
+        "igv_dng": 0.00,
+        "valor_adq_ng": c["base_imponible"] if no_gravado else 0.00,
+        "isc": 0.00,
+        "icbper": 0.00,
+        "otros_trib_cargos": 0.00,
+        "total_cp": c["total"],
+        "moneda": c["moneda"],
+        "tipo_cambio": "",
+        "clasif_bss_sss": "",
+        "car_orig": "",
+        "clu1_aplica_detraccion": c["aplica_detraccion"],
+        "clu2_codigo_spot": c["codigo_spot"],
+        "clu3_tasa_detraccion": c["tasa_detraccion"],
+        "clu4_monto_detraccion": monto_detraccion(c),
+        "clu5_cuenta_gasto_pcge": c["cuenta_gasto_pcge"],
+        "clu6_archivo_origen": c["archivo"],
+        "clu7_notas": c["notas"],
+    }
+    return valores
+
+
 def generar_csv(ruta: Path):
-    columnas = [
-        "archivo",
-        "tipo_comprobante",
-        "serie_correlativo",
-        "fecha_emision",
-        "ruc_emisor",
-        "razon_social_emisor",
-        "ruc_receptor",
-        "razon_social_receptor",
-        "concepto",
-        "moneda",
-        "base_imponible",
-        "igv",
-        "total",
-        "afectacion_igv",
-        "medio_pago",
-        "aplica_detraccion",
-        "codigo_spot",
-        "tasa_detraccion",
-        "monto_detraccion",
-        "cuenta_gasto_pcge",
-        "notas",
-    ]
+    columnas = [nombre_columna for nombre_columna, _ in COLUMNAS_RCE]
     with ruta.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=columnas)
         writer.writeheader()
         for c in COMPROBANTES:
-            fila = {
-                **c,
-                "ruc_receptor": RECEPTOR_RUC,
-                "razon_social_receptor": RECEPTOR_RAZON,
-                "monto_detraccion": monto_detraccion(c),
-            }
-            writer.writerow({k: fila.get(k, "") for k in columnas})
+            valores = fila_rce(c)
+            writer.writerow(
+                {nombre_columna: valores[clave_interna] for nombre_columna, clave_interna in COLUMNAS_RCE}
+            )
 
 
 def main():
