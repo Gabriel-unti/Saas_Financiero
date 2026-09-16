@@ -264,10 +264,13 @@ def dibujar_factura_o_boleta(cv, c):
         c["tipo_comprobante"]
     ]
     cv.setFont("Helvetica-Bold", 10)
-    cv.drawRightString(ancho - 30, y, etiqueta)
-    cv.drawRightString(ancho - 30, y - 14, c["serie_correlativo"])
+    cv.drawRightString(ancho - 30, y - 28, etiqueta)
+    cv.drawRightString(ancho - 30, y - 42, c["serie_correlativo"])
 
-    y -= 40
+    # Etiqueta y serie van 2 lineas mas abajo (no comparten y con la razon
+    # social/RUC): con nombres de proveedor largos en A5, compartir linea
+    # con texto alineado a la derecha genera solapamiento de caracteres.
+    y -= 56
     cv.setFont("Helvetica", 9)
     cv.drawString(30, y, f"Senor(es): {RECEPTOR_RAZON}")
     y -= 12
